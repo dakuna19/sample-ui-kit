@@ -1,0 +1,1055 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="screen-ab1a77a5-0c8f-4dd0-b008-9afb3a70848d-VC">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+<!--A01_bant_intro-->
+        <scene sceneID="screen-ab1a77a5-0c8f-4dd0-b008-9afb3a70848d-Scene">
+            <objects>
+                <viewController restorationIdentifier="a01bantintro" storyboardIdentifier="a01bantintro" id="screen-ab1a77a5-0c8f-4dd0-b008-9afb3a70848d-VC" userLabel="A01_bant_intro" sceneMemberID="viewController" customClass="APA01bantintroVC" customModuleProvider="target">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="screen-ab1a77a5-0c8f-4dd0-b008-9afb3a70848d-Top"/>
+                        <viewControllerLayoutGuide type="bottom" id="screen-ab1a77a5-0c8f-4dd0-b008-9afb3a70848d-Bottom"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="screen-ab1a77a5-0c8f-4dd0-b008-9afb3a70848d" >
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+        <subviews>
+    <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Label-3edbaac1-17c1-4a10-800e-be998edbff3e" userLabel="Label: Welcome to bant"   textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" horizontalHuggingPriority="251" verticalHuggingPriority="251" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" >
+        <string key="text">Welcome to bant</string>
+        <rect key="frame" x="77" y="375" width="217" height="30"/>
+        <color key="backgroundColor" red="1" green="1" blue="1" alpha="0" colorSpace="calibratedRGB"/>
+        <userDefinedRuntimeAttributes>
+            <userDefinedRuntimeAttribute type="number" keyPath="letterSpacing">
+                <real key="value" value="0"/>
+            </userDefinedRuntimeAttribute>
+            <userDefinedRuntimeAttribute type="number" keyPath="lineHeight">
+                <real key="value" value="0"/>
+            </userDefinedRuntimeAttribute>
+            <userDefinedRuntimeAttribute type="number" keyPath="paragraphSpacing">
+                <real key="value" value="0"/>
+            </userDefinedRuntimeAttribute>
+            
+        </userDefinedRuntimeAttributes>
+                                <connections>
+                                </connections>
+        <fontDescription key="fontDescription" pointSize="26" type="system" />
+        <color key="textColor" red="0" green="0" blue="0" alpha="0.87" colorSpace="calibratedRGB"/>
+        <nil key="highlightedColor"/>
+        <constraints>
+        </constraints>
+    </label>
+    <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Label-081a3ca1-a6d9-49a9-8345-3ff431b47f15" userLabel="Label: Track your lifestyle.
+Get personalized insights.
+Improve your diabetes"  customClass="ANLabel" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" horizontalHuggingPriority="251" verticalHuggingPriority="251" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" >
+        <string key="text">Track your lifestyle.
+Get personalized insights.
+Improve your diabetes</string>
+        <rect key="frame" x="36" y="426" width="298" height="60"/>
+        <color key="backgroundColor" red="1" green="1" blue="1" alpha="0" colorSpace="calibratedRGB"/>
+        <userDefinedRuntimeAttributes>
+            <userDefinedRuntimeAttribute type="number" keyPath="letterSpacing">
+                <real key="value" value="0"/>
+            </userDefinedRuntimeAttribute>
+            <userDefinedRuntimeAttribute type="number" keyPath="lineHeight">
+                <real key="value" value="20"/>
+            </userDefinedRuntimeAttribute>
+            <userDefinedRuntimeAttribute type="number" keyPath="paragraphSpacing">
+                <real key="value" value="0"/>
+            </userDefinedRuntimeAttribute>
+            
+        </userDefinedRuntimeAttributes>
+                                <connections>
+                                </connections>
+        <fontDescription key="fontDescription" pointSize="17" type="system" />
+        <color key="textColor" red="0" green="0" blue="0" alpha="0.54" colorSpace="calibratedRGB"/>
+        <nil key="highlightedColor"/>
+        <constraints>
+        </constraints>
+    </label>
+    <view opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="View-79086372-0a12-411e-a7a2-2bce0c0226e5" userLabel="page-dots"  >
+        <rect key="frame" x="135" y="612" width="99" height="11"/>
+        <color key="backgroundColor" red="1" green="1" blue="1" alpha="0" colorSpace="calibratedRGB"/>
+        <userDefinedRuntimeAttributes></userDefinedRuntimeAttributes>
+                                <connections>
+                                </connections>
+        <subviews>
+    <imageView image="a01bantintropagedot4" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleAspectFit" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="image-fcdd443e-41bb-47d6-a9d9-94e79b2f0794" userLabel="page-dot-4"   >
+        <rect key="frame" x="29" y="0" width="10" height="11"/>
+        <color key="backgroundColor" red="1" green="1" blue="1" alpha="0" colorSpace="calibratedRGB"/>
+        <userDefinedRuntimeAttributes></userDefinedRuntimeAttributes>
+                                <connections>
+                                </connections>
+        <constraints>
+        </constraints>
+    </imageView>
+    <imageView image="a01bantintropagedot3" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleAspectFit" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="image-98b84e5e-d5d1-4cdc-bcce-08734e34a411" userLabel="page-dot-3"   >
+        <rect key="frame" x="59" y="0" width="10" height="11"/>
+        <color key="backgroundColor" red="1" green="1" blue="1" alpha="0" colorSpace="calibratedRGB"/>
+        <userDefinedRuntimeAttributes></userDefinedRuntimeAttributes>
+                                <connections>
+                                </connections>
+        <constraints>
+        </constraints>
+    </imageView>
+    <imageView image="a01bantintropagedot2" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleAspectFit" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="image-b8d5d56a-237c-4876-8de8-a14a27f11a8c" userLabel="page-dot-2"   >
+        <rect key="frame" x="89" y="0" width="10" height="11"/>
+        <color key="backgroundColor" red="1" green="1" blue="1" alpha="0" colorSpace="calibratedRGB"/>
+        <userDefinedRuntimeAttributes></userDefinedRuntimeAttributes>
+                                <connections>
+                                </connections>
+        <constraints>
+        </constraints>
+    </imageView>
+    <view opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="View-1f67ab5a-9a53-4a04-83db-a82c4071915b" userLabel="page-dot-1"  >
+        <rect key="frame" x="0" y="1" width="8" height="9"/>
+        <color key="backgroundColor" red="0.1294118" green="0.5882353" blue="0.9529412" alpha="1" colorSpace="calibratedRGB"/>
+        <userDefinedRuntimeAttributes>
+            <userDefinedRuntimeAttribute type="number" keyPath="anCornerRadius">
+                <real key="value" value="4"/>
+            </userDefinedRuntimeAttribute>
+        </userDefinedRuntimeAttributes>
+                                <connections>
+                                </connections>
+        <constraints>
+        </constraints>
+    </view>
+        </subviews>
+        <constraints>
+            <constraint firstItem="image-fcdd443e-41bb-47d6-a9d9-94e79b2f0794" firstAttribute="width" constant="10" priority="971" id="image-fcdd443e-41bb-47d6-a9d9-94e79b2f0794-width" userLabel="page-dot-4-width"/>
+            <constraint firstItem="image-fcdd443e-41bb-47d6-a9d9-94e79b2f0794" firstAttribute="height" constant="11" priority="972" id="image-fcdd443e-41bb-47d6-a9d9-94e79b2f0794-height" userLabel="page-dot-4-height"/>
+            <constraint secondAttribute="top" secondItem="View-79086372-0a12-411e-a7a2-2bce0c0226e5" firstItem="image-fcdd443e-41bb-47d6-a9d9-94e79b2f0794" firstAttribute="top" constant="0" priority="973" id="image-fcdd443e-41bb-47d6-a9d9-94e79b2f0794-top" userLabel="page-dot-4-top"/>
+            <constraint secondAttribute="left" secondItem="View-79086372-0a12-411e-a7a2-2bce0c0226e5" firstItem="image-fcdd443e-41bb-47d6-a9d9-94e79b2f0794" firstAttribute="left" constant="29" priority="974" id="image-fcdd443e-41bb-47d6-a9d9-94e79b2f0794-left" userLabel="page-dot-4-left"/>
+            <constraint firstItem="image-98b84e5e-d5d1-4cdc-bcce-08734e34a411" firstAttribute="width" constant="10" priority="971" id="image-98b84e5e-d5d1-4cdc-bcce-08734e34a411-width" userLabel="page-dot-3-width"/>
+            <constraint firstItem="image-98b84e5e-d5d1-4cdc-bcce-08734e34a411" firstAttribute="height" constant="11" priority="972" id="image-98b84e5e-d5d1-4cdc-bcce-08734e34a411-height" userLabel="page-dot-3-height"/>
+            <constraint secondAttribute="top" secondItem="View-79086372-0a12-411e-a7a2-2bce0c0226e5" firstItem="image-98b84e5e-d5d1-4cdc-bcce-08734e34a411" firstAttribute="top" constant="0" priority="973" id="image-98b84e5e-d5d1-4cdc-bcce-08734e34a411-top" userLabel="page-dot-3-top"/>
+            <constraint secondAttribute="left" secondItem="View-79086372-0a12-411e-a7a2-2bce0c0226e5" firstItem="image-98b84e5e-d5d1-4cdc-bcce-08734e34a411" firstAttribute="left" constant="59" priority="974" id="image-98b84e5e-d5d1-4cdc-bcce-08734e34a411-left" userLabel="page-dot-3-left"/>
+            <constraint firstItem="image-b8d5d56a-237c-4876-8de8-a14a27f11a8c" firstAttribute="width" constant="10" priority="971" id="image-b8d5d56a-237c-4876-8de8-a14a27f11a8c-width" userLabel="page-dot-2-width"/>
+            <constraint firstItem="image-b8d5d56a-237c-4876-8de8-a14a27f11a8c" firstAttribute="height" constant="11" priority="972" id="image-b8d5d56a-237c-4876-8de8-a14a27f11a8c-height" userLabel="page-dot-2-height"/>
+            <constraint secondAttribute="top" secondItem="View-79086372-0a12-411e-a7a2-2bce0c0226e5" firstItem="image-b8d5d56a-237c-4876-8de8-a14a27f11a8c" firstAttribute="top" constant="0" priority="973" id="image-b8d5d56a-237c-4876-8de8-a14a27f11a8c-top" userLabel="page-dot-2-top"/>
+            <constraint secondAttribute="left" secondItem="View-79086372-0a12-411e-a7a2-2bce0c0226e5" firstItem="image-b8d5d56a-237c-4876-8de8-a14a27f11a8c" firstAttribute="left" constant="89" priority="974" id="image-b8d5d56a-237c-4876-8de8-a14a27f11a8c-left" userLabel="page-dot-2-left"/>
+            <constraint firstItem="View-1f67ab5a-9a53-4a04-83db-a82c4071915b" firstAttribute="width" constant="8" priority="971" id="View-1f67ab5a-9a53-4a04-83db-a82c4071915b-width" userLabel="page-dot-1-width"/>
+            <constraint firstItem="View-1f67ab5a-9a53-4a04-83db-a82c4071915b" firstAttribute="height" constant="9" priority="972" id="View-1f67ab5a-9a53-4a04-83db-a82c4071915b-height" userLabel="page-dot-1-height"/>
+            <constraint secondAttribute="top" secondItem="View-79086372-0a12-411e-a7a2-2bce0c0226e5" firstItem="View-1f67ab5a-9a53-4a04-83db-a82c4071915b" firstAttribute="top" constant="1" priority="973" id="View-1f67ab5a-9a53-4a04-83db-a82c4071915b-top" userLabel="page-dot-1-top"/>
+            <constraint secondAttribute="left" secondItem="View-79086372-0a12-411e-a7a2-2bce0c0226e5" firstItem="View-1f67ab5a-9a53-4a04-83db-a82c4071915b" firstAttribute="left" constant="0" priority="974" id="View-1f67ab5a-9a53-4a04-83db-a82c4071915b-left" userLabel="page-dot-1-left"/>
+        </constraints>
+    </view>
+        </subviews>
+        <constraints>
+            <constraint firstItem="Label-3edbaac1-17c1-4a10-800e-be998edbff3e" firstAttribute="width" constant="217" priority="971" id="Label-3edbaac1-17c1-4a10-800e-be998edbff3e-width" userLabel="Label: Welcome to bant-width"/>
+            <constraint firstItem="Label-3edbaac1-17c1-4a10-800e-be998edbff3e" firstAttribute="height" constant="30" priority="972" id="Label-3edbaac1-17c1-4a10-800e-be998edbff3e-height" userLabel="Label: Welcome to bant-height"/>
+            <constraint secondAttribute="top" secondItem="screen-ab1a77a5-0c8f-4dd0-b008-9afb3a70848d" firstItem="Label-3edbaac1-17c1-4a10-800e-be998edbff3e" firstAttribute="top" constant="375" priority="973" id="Label-3edbaac1-17c1-4a10-800e-be998edbff3e-top" userLabel="Label: Welcome to bant-top"/>
+            <constraint secondAttribute="left" secondItem="screen-ab1a77a5-0c8f-4dd0-b008-9afb3a70848d" firstItem="Label-3edbaac1-17c1-4a10-800e-be998edbff3e" firstAttribute="left" constant="77" priority="974" id="Label-3edbaac1-17c1-4a10-800e-be998edbff3e-left" userLabel="Label: Welcome to bant-left"/>
+            <constraint firstItem="Label-081a3ca1-a6d9-49a9-8345-3ff431b47f15" firstAttribute="width" constant="298" priority="971" id="Label-081a3ca1-a6d9-49a9-8345-3ff431b47f15-width" userLabel="Label: Track your lifestyle.
+Get personalized insights.
+Improve your diabetes-width"/>
+            <constraint firstItem="Label-081a3ca1-a6d9-49a9-8345-3ff431b47f15" firstAttribute="height" constant="60" priority="972" id="Label-081a3ca1-a6d9-49a9-8345-3ff431b47f15-height" userLabel="Label: Track your lifestyle.
+Get personalized insights.
+Improve your diabetes-height"/>
+            <constraint secondAttribute="top" secondItem="screen-ab1a77a5-0c8f-4dd0-b008-9afb3a70848d" firstItem="Label-081a3ca1-a6d9-49a9-8345-3ff431b47f15" firstAttribute="top" constant="426" priority="973" id="Label-081a3ca1-a6d9-49a9-8345-3ff431b47f15-top" userLabel="Label: Track your lifestyle.
+Get personalized insights.
+Improve your diabetes-top"/>
+            <constraint secondAttribute="left" secondItem="screen-ab1a77a5-0c8f-4dd0-b008-9afb3a70848d" firstItem="Label-081a3ca1-a6d9-49a9-8345-3ff431b47f15" firstAttribute="left" constant="36" priority="974" id="Label-081a3ca1-a6d9-49a9-8345-3ff431b47f15-left" userLabel="Label: Track your lifestyle.
+Get personalized insights.
+Improve your diabetes-left"/>
+            <constraint firstItem="View-79086372-0a12-411e-a7a2-2bce0c0226e5" firstAttribute="width" constant="99" priority="971" id="View-79086372-0a12-411e-a7a2-2bce0c0226e5-width" userLabel="page-dots-width"/>
+            <constraint firstItem="View-79086372-0a12-411e-a7a2-2bce0c0226e5" firstAttribute="height" constant="11" priority="972" id="View-79086372-0a12-411e-a7a2-2bce0c0226e5-height" userLabel="page-dots-height"/>
+            <constraint secondAttribute="top" secondItem="screen-ab1a77a5-0c8f-4dd0-b008-9afb3a70848d" firstItem="View-79086372-0a12-411e-a7a2-2bce0c0226e5" firstAttribute="top" constant="612" priority="973" id="View-79086372-0a12-411e-a7a2-2bce0c0226e5-top" userLabel="page-dots-top"/>
+            <constraint secondAttribute="left" secondItem="screen-ab1a77a5-0c8f-4dd0-b008-9afb3a70848d" firstItem="View-79086372-0a12-411e-a7a2-2bce0c0226e5" firstAttribute="left" constant="135" priority="974" id="View-79086372-0a12-411e-a7a2-2bce0c0226e5-left" userLabel="page-dots-left"/>
+        </constraints>
+                                <connections>
+                                </connections>
+</view>
+                    <userDefinedRuntimeAttributes>
+                    <userDefinedRuntimeAttribute type="boolean" keyPath="hidesNavBar" value="YES"/>
+                    <userDefinedRuntimeAttribute type="boolean" keyPath="hidesStatusBar" value="YES"/>
+                    <userDefinedRuntimeAttribute type="boolean" keyPath="lightStatusBar" value="NO"/>
+                    </userDefinedRuntimeAttributes>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="375" height="667"/>
+                    <connections>
+                        <outlet property="labelWelcomeToBant" destination="Label-3edbaac1-17c1-4a10-800e-be998edbff3e" id="labelWelcomeToBant-screen-ab1a77a5-0c8f-4dd0-b008-9afb3a70848d-Prop"/>
+                        <outlet property="labelTrackYourLifestyleGetPersonalizedInsightsImproveYourDiabetes" destination="Label-081a3ca1-a6d9-49a9-8345-3ff431b47f15" id="labelTrackYourLifestyleGetPersonalizedInsightsImproveYourDiabetes-screen-ab1a77a5-0c8f-4dd0-b008-9afb3a70848d-Prop"/>
+                        <outlet property="pagedots" destination="View-79086372-0a12-411e-a7a2-2bce0c0226e5" id="pagedots-screen-ab1a77a5-0c8f-4dd0-b008-9afb3a70848d-Prop"/>
+                        <outlet property="pagedotsPagedot4" destination="image-fcdd443e-41bb-47d6-a9d9-94e79b2f0794" id="pagedotsPagedot4-screen-ab1a77a5-0c8f-4dd0-b008-9afb3a70848d-Prop"/>
+                        <outlet property="pagedotsPagedot3" destination="image-98b84e5e-d5d1-4cdc-bcce-08734e34a411" id="pagedotsPagedot3-screen-ab1a77a5-0c8f-4dd0-b008-9afb3a70848d-Prop"/>
+                        <outlet property="pagedotsPagedot2" destination="image-b8d5d56a-237c-4876-8de8-a14a27f11a8c" id="pagedotsPagedot2-screen-ab1a77a5-0c8f-4dd0-b008-9afb3a70848d-Prop"/>
+                        <outlet property="pagedotsPagedot1" destination="View-1f67ab5a-9a53-4a04-83db-a82c4071915b" id="pagedotsPagedot1-screen-ab1a77a5-0c8f-4dd0-b008-9afb3a70848d-Prop"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="screen-ab1a77a5-0c8f-4dd0-b008-9afb3a70848d-FR" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="0" y="0"/>
+        </scene>
+    
+<!--A02_bant_intro-->
+        <scene sceneID="screen-f9126770-fcf2-492c-a978-aa2323795b03-Scene">
+            <objects>
+                <viewController restorationIdentifier="a02bantintro" storyboardIdentifier="a02bantintro" id="screen-f9126770-fcf2-492c-a978-aa2323795b03-VC" userLabel="A02_bant_intro" sceneMemberID="viewController" customClass="APA02bantintroVC" customModuleProvider="target">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="screen-f9126770-fcf2-492c-a978-aa2323795b03-Top"/>
+                        <viewControllerLayoutGuide type="bottom" id="screen-f9126770-fcf2-492c-a978-aa2323795b03-Bottom"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="screen-f9126770-fcf2-492c-a978-aa2323795b03" >
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+        <subviews>
+    <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Label-48a91494-d901-468d-9f73-2930588ff9a8" userLabel="Label: Add Readings"   textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" horizontalHuggingPriority="251" verticalHuggingPriority="251" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" >
+        <string key="text">Add Readings</string>
+        <rect key="frame" x="99" y="374.2901" width="179" height="31.70988"/>
+        <color key="backgroundColor" red="1" green="1" blue="1" alpha="0" colorSpace="calibratedRGB"/>
+        <userDefinedRuntimeAttributes>
+            <userDefinedRuntimeAttribute type="number" keyPath="letterSpacing">
+                <real key="value" value="0"/>
+            </userDefinedRuntimeAttribute>
+            <userDefinedRuntimeAttribute type="number" keyPath="lineHeight">
+                <real key="value" value="0"/>
+            </userDefinedRuntimeAttribute>
+            <userDefinedRuntimeAttribute type="number" keyPath="paragraphSpacing">
+                <real key="value" value="0"/>
+            </userDefinedRuntimeAttribute>
+            
+        </userDefinedRuntimeAttributes>
+                                <connections>
+                                </connections>
+        <fontDescription key="fontDescription" pointSize="26" type="system" />
+        <color key="textColor" red="0" green="0" blue="0" alpha="0.87" colorSpace="calibratedRGB"/>
+        <nil key="highlightedColor"/>
+        <constraints>
+        </constraints>
+    </label>
+    <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Label-089fb13c-93d7-4c8e-a87f-b58c5c421ec4" userLabel="Label: To get started with bant, tap the + to add your blood glucose readings, meals and weight."  customClass="ANLabel" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" horizontalHuggingPriority="251" verticalHuggingPriority="251" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" >
+        <string key="text">To get started with bant, tap the + to add your blood glucose readings, meals and weight.</string>
+        <rect key="frame" x="57" y="425.2842" width="264" height="60.71581"/>
+        <color key="backgroundColor" red="1" green="1" blue="1" alpha="0" colorSpace="calibratedRGB"/>
+        <userDefinedRuntimeAttributes>
+            <userDefinedRuntimeAttribute type="number" keyPath="letterSpacing">
+                <real key="value" value="0"/>
+            </userDefinedRuntimeAttribute>
+            <userDefinedRuntimeAttribute type="number" keyPath="lineHeight">
+                <real key="value" value="20"/>
+            </userDefinedRuntimeAttribute>
+            <userDefinedRuntimeAttribute type="number" keyPath="paragraphSpacing">
+                <real key="value" value="0"/>
+            </userDefinedRuntimeAttribute>
+            
+        </userDefinedRuntimeAttributes>
+                                <connections>
+                                </connections>
+        <fontDescription key="fontDescription" pointSize="17" type="system" />
+        <color key="textColor" red="0" green="0" blue="0" alpha="0.54" colorSpace="calibratedRGB"/>
+        <nil key="highlightedColor"/>
+        <constraints>
+        </constraints>
+    </label>
+    <imageView image="a02bantintroadd icon" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleAspectFit" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="image-c91023c3-e2c7-4681-b723-85a3396dd02b" userLabel="Add Icon"   >
+        <rect key="frame" x="142" y="197" width="92" height="101"/>
+        <color key="backgroundColor" red="1" green="1" blue="1" alpha="0" colorSpace="calibratedRGB"/>
+        <userDefinedRuntimeAttributes></userDefinedRuntimeAttributes>
+                                <connections>
+                                </connections>
+        <constraints>
+        </constraints>
+    </imageView>
+    <imageView image="a02bantintroblood" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleAspectFit" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="image-46bdc110-65e2-4fcd-b42c-41739efbcad0" userLabel="blood"   >
+        <rect key="frame" x="161" y="83" width="55" height="60"/>
+        <color key="backgroundColor" red="1" green="1" blue="1" alpha="0" colorSpace="calibratedRGB"/>
+        <userDefinedRuntimeAttributes></userDefinedRuntimeAttributes>
+                                <connections>
+                                </connections>
+        <constraints>
+        </constraints>
+    </imageView>
+    <imageView image="a02bantintroweight" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleAspectFit" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="image-982958f3-1566-44ef-a7da-c02d3917fa9f" userLabel="weight"   >
+        <rect key="frame" x="58" y="161" width="56" height="61"/>
+        <color key="backgroundColor" red="1" green="1" blue="1" alpha="0" colorSpace="calibratedRGB"/>
+        <userDefinedRuntimeAttributes></userDefinedRuntimeAttributes>
+                                <connections>
+                                </connections>
+        <constraints>
+        </constraints>
+    </imageView>
+    <imageView image="a02bantintromeak" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleAspectFit" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="image-2c4f70fd-f41d-4f93-a9ae-87decbb54cdc" userLabel="meak"   >
+        <rect key="frame" x="262" y="161" width="56" height="61"/>
+        <color key="backgroundColor" red="1" green="1" blue="1" alpha="0" colorSpace="calibratedRGB"/>
+        <userDefinedRuntimeAttributes></userDefinedRuntimeAttributes>
+                                <connections>
+                                </connections>
+        <constraints>
+        </constraints>
+    </imageView>
+    <view opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="View-ac23cb8e-b41b-4273-ba44-013175a05ff6" userLabel="page-dots"  >
+        <rect key="frame" x="137" y="611" width="100" height="11"/>
+        <color key="backgroundColor" red="1" green="1" blue="1" alpha="0" colorSpace="calibratedRGB"/>
+        <userDefinedRuntimeAttributes></userDefinedRuntimeAttributes>
+                                <connections>
+                                </connections>
+        <subviews>
+    <imageView image="a02bantintropagedot4" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleAspectFit" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="image-86d71319-ae65-4a95-9f99-c1d3f7952b1a" userLabel="page-dot-4"   >
+        <rect key="frame" x="0" y="0" width="10" height="11"/>
+        <color key="backgroundColor" red="1" green="1" blue="1" alpha="0" colorSpace="calibratedRGB"/>
+        <userDefinedRuntimeAttributes></userDefinedRuntimeAttributes>
+                                <connections>
+                                </connections>
+        <constraints>
+        </constraints>
+    </imageView>
+    <imageView image="a02bantintropagedot3" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleAspectFit" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="image-2bfa2412-3d79-45cb-8360-c1215b929d67" userLabel="page-dot-3"   >
+        <rect key="frame" x="60" y="0" width="10" height="11"/>
+        <color key="backgroundColor" red="1" green="1" blue="1" alpha="0" colorSpace="calibratedRGB"/>
+        <userDefinedRuntimeAttributes></userDefinedRuntimeAttributes>
+                                <connections>
+                                </connections>
+        <constraints>
+        </constraints>
+    </imageView>
+    <imageView image="a02bantintropagedot2" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleAspectFit" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="image-0cd451ce-a913-44ec-8e47-84b9cb913672" userLabel="page-dot-2"   >
+        <rect key="frame" x="90" y="0" width="10" height="11"/>
+        <color key="backgroundColor" red="1" green="1" blue="1" alpha="0" colorSpace="calibratedRGB"/>
+        <userDefinedRuntimeAttributes></userDefinedRuntimeAttributes>
+                                <connections>
+                                </connections>
+        <constraints>
+        </constraints>
+    </imageView>
+    <view opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="View-db0ac5be-babf-4208-a231-336470577c6f" userLabel="page-dot-1"  >
+        <rect key="frame" x="31" y="1" width="8" height="8.694621"/>
+        <color key="backgroundColor" red="0.1294118" green="0.5882353" blue="0.9529412" alpha="1" colorSpace="calibratedRGB"/>
+        <userDefinedRuntimeAttributes>
+            <userDefinedRuntimeAttribute type="number" keyPath="anCornerRadius">
+                <real key="value" value="4"/>
+            </userDefinedRuntimeAttribute>
+        </userDefinedRuntimeAttributes>
+                                <connections>
+                                </connections>
+        <constraints>
+        </constraints>
+    </view>
+        </subviews>
+        <constraints>
+            <constraint firstItem="image-86d71319-ae65-4a95-9f99-c1d3f7952b1a" firstAttribute="width" constant="10" priority="971" id="image-86d71319-ae65-4a95-9f99-c1d3f7952b1a-width" userLabel="page-dot-4-width"/>
+            <constraint firstItem="image-86d71319-ae65-4a95-9f99-c1d3f7952b1a" firstAttribute="height" constant="11" priority="972" id="image-86d71319-ae65-4a95-9f99-c1d3f7952b1a-height" userLabel="page-dot-4-height"/>
+            <constraint secondAttribute="top" secondItem="View-ac23cb8e-b41b-4273-ba44-013175a05ff6" firstItem="image-86d71319-ae65-4a95-9f99-c1d3f7952b1a" firstAttribute="top" constant="0" priority="973" id="image-86d71319-ae65-4a95-9f99-c1d3f7952b1a-top" userLabel="page-dot-4-top"/>
+            <constraint secondAttribute="left" secondItem="View-ac23cb8e-b41b-4273-ba44-013175a05ff6" firstItem="image-86d71319-ae65-4a95-9f99-c1d3f7952b1a" firstAttribute="left" constant="0" priority="974" id="image-86d71319-ae65-4a95-9f99-c1d3f7952b1a-left" userLabel="page-dot-4-left"/>
+            <constraint firstItem="image-2bfa2412-3d79-45cb-8360-c1215b929d67" firstAttribute="width" constant="10" priority="971" id="image-2bfa2412-3d79-45cb-8360-c1215b929d67-width" userLabel="page-dot-3-width"/>
+            <constraint firstItem="image-2bfa2412-3d79-45cb-8360-c1215b929d67" firstAttribute="height" constant="11" priority="972" id="image-2bfa2412-3d79-45cb-8360-c1215b929d67-height" userLabel="page-dot-3-height"/>
+            <constraint secondAttribute="top" secondItem="View-ac23cb8e-b41b-4273-ba44-013175a05ff6" firstItem="image-2bfa2412-3d79-45cb-8360-c1215b929d67" firstAttribute="top" constant="0" priority="973" id="image-2bfa2412-3d79-45cb-8360-c1215b929d67-top" userLabel="page-dot-3-top"/>
+            <constraint secondAttribute="left" secondItem="View-ac23cb8e-b41b-4273-ba44-013175a05ff6" firstItem="image-2bfa2412-3d79-45cb-8360-c1215b929d67" firstAttribute="left" constant="60" priority="974" id="image-2bfa2412-3d79-45cb-8360-c1215b929d67-left" userLabel="page-dot-3-left"/>
+            <constraint firstItem="image-0cd451ce-a913-44ec-8e47-84b9cb913672" firstAttribute="width" constant="10" priority="971" id="image-0cd451ce-a913-44ec-8e47-84b9cb913672-width" userLabel="page-dot-2-width"/>
+            <constraint firstItem="image-0cd451ce-a913-44ec-8e47-84b9cb913672" firstAttribute="height" constant="11" priority="972" id="image-0cd451ce-a913-44ec-8e47-84b9cb913672-height" userLabel="page-dot-2-height"/>
+            <constraint secondAttribute="top" secondItem="View-ac23cb8e-b41b-4273-ba44-013175a05ff6" firstItem="image-0cd451ce-a913-44ec-8e47-84b9cb913672" firstAttribute="top" constant="0" priority="973" id="image-0cd451ce-a913-44ec-8e47-84b9cb913672-top" userLabel="page-dot-2-top"/>
+            <constraint secondAttribute="left" secondItem="View-ac23cb8e-b41b-4273-ba44-013175a05ff6" firstItem="image-0cd451ce-a913-44ec-8e47-84b9cb913672" firstAttribute="left" constant="90" priority="974" id="image-0cd451ce-a913-44ec-8e47-84b9cb913672-left" userLabel="page-dot-2-left"/>
+            <constraint firstItem="View-db0ac5be-babf-4208-a231-336470577c6f" firstAttribute="width" constant="8" priority="971" id="View-db0ac5be-babf-4208-a231-336470577c6f-width" userLabel="page-dot-1-width"/>
+            <constraint firstItem="View-db0ac5be-babf-4208-a231-336470577c6f" firstAttribute="height" constant="8.694621" priority="972" id="View-db0ac5be-babf-4208-a231-336470577c6f-height" userLabel="page-dot-1-height"/>
+            <constraint secondAttribute="top" secondItem="View-ac23cb8e-b41b-4273-ba44-013175a05ff6" firstItem="View-db0ac5be-babf-4208-a231-336470577c6f" firstAttribute="top" constant="1" priority="973" id="View-db0ac5be-babf-4208-a231-336470577c6f-top" userLabel="page-dot-1-top"/>
+            <constraint secondAttribute="left" secondItem="View-ac23cb8e-b41b-4273-ba44-013175a05ff6" firstItem="View-db0ac5be-babf-4208-a231-336470577c6f" firstAttribute="left" constant="31" priority="974" id="View-db0ac5be-babf-4208-a231-336470577c6f-left" userLabel="page-dot-1-left"/>
+        </constraints>
+    </view>
+        </subviews>
+        <constraints>
+            <constraint firstItem="Label-48a91494-d901-468d-9f73-2930588ff9a8" firstAttribute="width" constant="179" priority="971" id="Label-48a91494-d901-468d-9f73-2930588ff9a8-width" userLabel="Label: Add Readings-width"/>
+            <constraint firstItem="Label-48a91494-d901-468d-9f73-2930588ff9a8" firstAttribute="height" constant="31.70988" priority="972" id="Label-48a91494-d901-468d-9f73-2930588ff9a8-height" userLabel="Label: Add Readings-height"/>
+            <constraint secondAttribute="top" secondItem="screen-f9126770-fcf2-492c-a978-aa2323795b03" firstItem="Label-48a91494-d901-468d-9f73-2930588ff9a8" firstAttribute="top" constant="374.2901" priority="973" id="Label-48a91494-d901-468d-9f73-2930588ff9a8-top" userLabel="Label: Add Readings-top"/>
+            <constraint secondAttribute="left" secondItem="screen-f9126770-fcf2-492c-a978-aa2323795b03" firstItem="Label-48a91494-d901-468d-9f73-2930588ff9a8" firstAttribute="left" constant="99" priority="974" id="Label-48a91494-d901-468d-9f73-2930588ff9a8-left" userLabel="Label: Add Readings-left"/>
+            <constraint firstItem="Label-089fb13c-93d7-4c8e-a87f-b58c5c421ec4" firstAttribute="width" constant="264" priority="971" id="Label-089fb13c-93d7-4c8e-a87f-b58c5c421ec4-width" userLabel="Label: To get started with bant, tap the + to add your blood glucose readings, meals and weight.-width"/>
+            <constraint firstItem="Label-089fb13c-93d7-4c8e-a87f-b58c5c421ec4" firstAttribute="height" constant="60.71581" priority="972" id="Label-089fb13c-93d7-4c8e-a87f-b58c5c421ec4-height" userLabel="Label: To get started with bant, tap the + to add your blood glucose readings, meals and weight.-height"/>
+            <constraint secondAttribute="top" secondItem="screen-f9126770-fcf2-492c-a978-aa2323795b03" firstItem="Label-089fb13c-93d7-4c8e-a87f-b58c5c421ec4" firstAttribute="top" constant="425.2842" priority="973" id="Label-089fb13c-93d7-4c8e-a87f-b58c5c421ec4-top" userLabel="Label: To get started with bant, tap the + to add your blood glucose readings, meals and weight.-top"/>
+            <constraint secondAttribute="left" secondItem="screen-f9126770-fcf2-492c-a978-aa2323795b03" firstItem="Label-089fb13c-93d7-4c8e-a87f-b58c5c421ec4" firstAttribute="left" constant="57" priority="974" id="Label-089fb13c-93d7-4c8e-a87f-b58c5c421ec4-left" userLabel="Label: To get started with bant, tap the + to add your blood glucose readings, meals and weight.-left"/>
+            <constraint firstItem="image-c91023c3-e2c7-4681-b723-85a3396dd02b" firstAttribute="width" constant="92" priority="971" id="image-c91023c3-e2c7-4681-b723-85a3396dd02b-width" userLabel="Add Icon-width"/>
+            <constraint firstItem="image-c91023c3-e2c7-4681-b723-85a3396dd02b" firstAttribute="height" constant="101" priority="972" id="image-c91023c3-e2c7-4681-b723-85a3396dd02b-height" userLabel="Add Icon-height"/>
+            <constraint secondAttribute="top" secondItem="screen-f9126770-fcf2-492c-a978-aa2323795b03" firstItem="image-c91023c3-e2c7-4681-b723-85a3396dd02b" firstAttribute="top" constant="197" priority="973" id="image-c91023c3-e2c7-4681-b723-85a3396dd02b-top" userLabel="Add Icon-top"/>
+            <constraint secondAttribute="left" secondItem="screen-f9126770-fcf2-492c-a978-aa2323795b03" firstItem="image-c91023c3-e2c7-4681-b723-85a3396dd02b" firstAttribute="left" constant="142" priority="974" id="image-c91023c3-e2c7-4681-b723-85a3396dd02b-left" userLabel="Add Icon-left"/>
+            <constraint firstItem="image-46bdc110-65e2-4fcd-b42c-41739efbcad0" firstAttribute="width" constant="55" priority="971" id="image-46bdc110-65e2-4fcd-b42c-41739efbcad0-width" userLabel="blood-width"/>
+            <constraint firstItem="image-46bdc110-65e2-4fcd-b42c-41739efbcad0" firstAttribute="height" constant="60" priority="972" id="image-46bdc110-65e2-4fcd-b42c-41739efbcad0-height" userLabel="blood-height"/>
+            <constraint secondAttribute="top" secondItem="screen-f9126770-fcf2-492c-a978-aa2323795b03" firstItem="image-46bdc110-65e2-4fcd-b42c-41739efbcad0" firstAttribute="top" constant="83" priority="973" id="image-46bdc110-65e2-4fcd-b42c-41739efbcad0-top" userLabel="blood-top"/>
+            <constraint secondAttribute="left" secondItem="screen-f9126770-fcf2-492c-a978-aa2323795b03" firstItem="image-46bdc110-65e2-4fcd-b42c-41739efbcad0" firstAttribute="left" constant="161" priority="974" id="image-46bdc110-65e2-4fcd-b42c-41739efbcad0-left" userLabel="blood-left"/>
+            <constraint firstItem="image-982958f3-1566-44ef-a7da-c02d3917fa9f" firstAttribute="width" constant="56" priority="971" id="image-982958f3-1566-44ef-a7da-c02d3917fa9f-width" userLabel="weight-width"/>
+            <constraint firstItem="image-982958f3-1566-44ef-a7da-c02d3917fa9f" firstAttribute="height" constant="61" priority="972" id="image-982958f3-1566-44ef-a7da-c02d3917fa9f-height" userLabel="weight-height"/>
+            <constraint secondAttribute="top" secondItem="screen-f9126770-fcf2-492c-a978-aa2323795b03" firstItem="image-982958f3-1566-44ef-a7da-c02d3917fa9f" firstAttribute="top" constant="161" priority="973" id="image-982958f3-1566-44ef-a7da-c02d3917fa9f-top" userLabel="weight-top"/>
+            <constraint secondAttribute="left" secondItem="screen-f9126770-fcf2-492c-a978-aa2323795b03" firstItem="image-982958f3-1566-44ef-a7da-c02d3917fa9f" firstAttribute="left" constant="58" priority="974" id="image-982958f3-1566-44ef-a7da-c02d3917fa9f-left" userLabel="weight-left"/>
+            <constraint firstItem="image-2c4f70fd-f41d-4f93-a9ae-87decbb54cdc" firstAttribute="width" constant="56" priority="971" id="image-2c4f70fd-f41d-4f93-a9ae-87decbb54cdc-width" userLabel="meak-width"/>
+            <constraint firstItem="image-2c4f70fd-f41d-4f93-a9ae-87decbb54cdc" firstAttribute="height" constant="61" priority="972" id="image-2c4f70fd-f41d-4f93-a9ae-87decbb54cdc-height" userLabel="meak-height"/>
+            <constraint secondAttribute="top" secondItem="screen-f9126770-fcf2-492c-a978-aa2323795b03" firstItem="image-2c4f70fd-f41d-4f93-a9ae-87decbb54cdc" firstAttribute="top" constant="161" priority="973" id="image-2c4f70fd-f41d-4f93-a9ae-87decbb54cdc-top" userLabel="meak-top"/>
+            <constraint secondAttribute="left" secondItem="screen-f9126770-fcf2-492c-a978-aa2323795b03" firstItem="image-2c4f70fd-f41d-4f93-a9ae-87decbb54cdc" firstAttribute="left" constant="262" priority="974" id="image-2c4f70fd-f41d-4f93-a9ae-87decbb54cdc-left" userLabel="meak-left"/>
+            <constraint firstItem="View-ac23cb8e-b41b-4273-ba44-013175a05ff6" firstAttribute="width" constant="100" priority="971" id="View-ac23cb8e-b41b-4273-ba44-013175a05ff6-width" userLabel="page-dots-width"/>
+            <constraint firstItem="View-ac23cb8e-b41b-4273-ba44-013175a05ff6" firstAttribute="height" constant="11" priority="972" id="View-ac23cb8e-b41b-4273-ba44-013175a05ff6-height" userLabel="page-dots-height"/>
+            <constraint secondAttribute="top" secondItem="screen-f9126770-fcf2-492c-a978-aa2323795b03" firstItem="View-ac23cb8e-b41b-4273-ba44-013175a05ff6" firstAttribute="top" constant="611" priority="973" id="View-ac23cb8e-b41b-4273-ba44-013175a05ff6-top" userLabel="page-dots-top"/>
+            <constraint secondAttribute="left" secondItem="screen-f9126770-fcf2-492c-a978-aa2323795b03" firstItem="View-ac23cb8e-b41b-4273-ba44-013175a05ff6" firstAttribute="left" constant="137" priority="974" id="View-ac23cb8e-b41b-4273-ba44-013175a05ff6-left" userLabel="page-dots-left"/>
+        </constraints>
+                                <connections>
+                                </connections>
+</view>
+                    <userDefinedRuntimeAttributes>
+                    <userDefinedRuntimeAttribute type="boolean" keyPath="hidesNavBar" value="YES"/>
+                    <userDefinedRuntimeAttribute type="boolean" keyPath="hidesStatusBar" value="YES"/>
+                    <userDefinedRuntimeAttribute type="boolean" keyPath="lightStatusBar" value="NO"/>
+                    </userDefinedRuntimeAttributes>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="375" height="667"/>
+                    <connections>
+                        <outlet property="labelAddReadings" destination="Label-48a91494-d901-468d-9f73-2930588ff9a8" id="labelAddReadings-screen-f9126770-fcf2-492c-a978-aa2323795b03-Prop"/>
+                        <outlet property="labelToGetStartedWithBantTapTheToAddYourBloodGlucoseReadingsMealsAndWeight" destination="Label-089fb13c-93d7-4c8e-a87f-b58c5c421ec4" id="labelToGetStartedWithBantTapTheToAddYourBloodGlucoseReadingsMealsAndWeight-screen-f9126770-fcf2-492c-a978-aa2323795b03-Prop"/>
+                        <outlet property="addIcon" destination="image-c91023c3-e2c7-4681-b723-85a3396dd02b" id="addIcon-screen-f9126770-fcf2-492c-a978-aa2323795b03-Prop"/>
+                        <outlet property="blood" destination="image-46bdc110-65e2-4fcd-b42c-41739efbcad0" id="blood-screen-f9126770-fcf2-492c-a978-aa2323795b03-Prop"/>
+                        <outlet property="weight" destination="image-982958f3-1566-44ef-a7da-c02d3917fa9f" id="weight-screen-f9126770-fcf2-492c-a978-aa2323795b03-Prop"/>
+                        <outlet property="meak" destination="image-2c4f70fd-f41d-4f93-a9ae-87decbb54cdc" id="meak-screen-f9126770-fcf2-492c-a978-aa2323795b03-Prop"/>
+                        <outlet property="pagedots" destination="View-ac23cb8e-b41b-4273-ba44-013175a05ff6" id="pagedots-screen-f9126770-fcf2-492c-a978-aa2323795b03-Prop"/>
+                        <outlet property="pagedotsPagedot4" destination="image-86d71319-ae65-4a95-9f99-c1d3f7952b1a" id="pagedotsPagedot4-screen-f9126770-fcf2-492c-a978-aa2323795b03-Prop"/>
+                        <outlet property="pagedotsPagedot3" destination="image-2bfa2412-3d79-45cb-8360-c1215b929d67" id="pagedotsPagedot3-screen-f9126770-fcf2-492c-a978-aa2323795b03-Prop"/>
+                        <outlet property="pagedotsPagedot2" destination="image-0cd451ce-a913-44ec-8e47-84b9cb913672" id="pagedotsPagedot2-screen-f9126770-fcf2-492c-a978-aa2323795b03-Prop"/>
+                        <outlet property="pagedotsPagedot1" destination="View-db0ac5be-babf-4208-a231-336470577c6f" id="pagedotsPagedot1-screen-f9126770-fcf2-492c-a978-aa2323795b03-Prop"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="screen-f9126770-fcf2-492c-a978-aa2323795b03-FR" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="0" y="842"/>
+        </scene>
+    
+<!--A03_bant_intro-->
+        <scene sceneID="screen-3d1e2063-de3c-49f4-b937-4a0bf60f0882-Scene">
+            <objects>
+                <viewController restorationIdentifier="a03bantintro" storyboardIdentifier="a03bantintro" id="screen-3d1e2063-de3c-49f4-b937-4a0bf60f0882-VC" userLabel="A03_bant_intro" sceneMemberID="viewController" customClass="APA03bantintroVC" customModuleProvider="target">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="screen-3d1e2063-de3c-49f4-b937-4a0bf60f0882-Top"/>
+                        <viewControllerLayoutGuide type="bottom" id="screen-3d1e2063-de3c-49f4-b937-4a0bf60f0882-Bottom"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="screen-3d1e2063-de3c-49f4-b937-4a0bf60f0882" >
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+        <subviews>
+    <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Label-028cd495-6b02-4edb-8e12-648c24c7188e" userLabel="Label: Set Reminders"   textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" horizontalHuggingPriority="251" verticalHuggingPriority="251" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" >
+        <string key="text">Set Reminders</string>
+        <rect key="frame" x="95" y="374.2901" width="187" height="30"/>
+        <color key="backgroundColor" red="1" green="1" blue="1" alpha="0" colorSpace="calibratedRGB"/>
+        <userDefinedRuntimeAttributes>
+            <userDefinedRuntimeAttribute type="number" keyPath="letterSpacing">
+                <real key="value" value="0"/>
+            </userDefinedRuntimeAttribute>
+            <userDefinedRuntimeAttribute type="number" keyPath="lineHeight">
+                <real key="value" value="0"/>
+            </userDefinedRuntimeAttribute>
+            <userDefinedRuntimeAttribute type="number" keyPath="paragraphSpacing">
+                <real key="value" value="0"/>
+            </userDefinedRuntimeAttribute>
+            
+        </userDefinedRuntimeAttributes>
+                                <connections>
+                                </connections>
+        <fontDescription key="fontDescription" pointSize="26" type="system" />
+        <color key="textColor" red="0" green="0" blue="0" alpha="0.87" colorSpace="calibratedRGB"/>
+        <nil key="highlightedColor"/>
+        <constraints>
+        </constraints>
+    </label>
+    <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Label-fe4629b1-33e5-400b-b12f-740ec6a96947" userLabel="Label: Personalize your meal times, reminders and blood glucose range in settings."  customClass="ANLabel" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" horizontalHuggingPriority="251" verticalHuggingPriority="251" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" >
+        <string key="text">Personalize your meal times, reminders and blood glucose range in settings.</string>
+        <rect key="frame" x="47" y="425.2842" width="282" height="60.71581"/>
+        <color key="backgroundColor" red="1" green="1" blue="1" alpha="0" colorSpace="calibratedRGB"/>
+        <userDefinedRuntimeAttributes>
+            <userDefinedRuntimeAttribute type="number" keyPath="letterSpacing">
+                <real key="value" value="0"/>
+            </userDefinedRuntimeAttribute>
+            <userDefinedRuntimeAttribute type="number" keyPath="lineHeight">
+                <real key="value" value="20"/>
+            </userDefinedRuntimeAttribute>
+            <userDefinedRuntimeAttribute type="number" keyPath="paragraphSpacing">
+                <real key="value" value="0"/>
+            </userDefinedRuntimeAttribute>
+            
+        </userDefinedRuntimeAttributes>
+                                <connections>
+                                </connections>
+        <fontDescription key="fontDescription" pointSize="17" type="system" />
+        <color key="textColor" red="0" green="0" blue="0" alpha="0.54" colorSpace="calibratedRGB"/>
+        <nil key="highlightedColor"/>
+        <constraints>
+        </constraints>
+    </label>
+    <view opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="View-45e1fc62-0f42-4528-a850-ad5ca243451f" userLabel="page-dots"  >
+        <rect key="frame" x="137" y="611" width="100" height="11"/>
+        <color key="backgroundColor" red="1" green="1" blue="1" alpha="0" colorSpace="calibratedRGB"/>
+        <userDefinedRuntimeAttributes></userDefinedRuntimeAttributes>
+                                <connections>
+                                </connections>
+        <subviews>
+    <view opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="View-82fc0f12-2e60-4275-81a7-3e8de4ee6fbf" userLabel="page-dot-4"  >
+        <rect key="frame" x="61" y="1" width="8" height="8.694621"/>
+        <color key="backgroundColor" red="0.1294118" green="0.5882353" blue="0.9529412" alpha="1" colorSpace="calibratedRGB"/>
+        <userDefinedRuntimeAttributes>
+            <userDefinedRuntimeAttribute type="number" keyPath="anCornerRadius">
+                <real key="value" value="4"/>
+            </userDefinedRuntimeAttribute>
+        </userDefinedRuntimeAttributes>
+                                <connections>
+                                </connections>
+        <constraints>
+        </constraints>
+    </view>
+    <imageView image="a03bantintropagedot3" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleAspectFit" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="image-59312074-4324-4123-b5ca-ab465335e626" userLabel="page-dot-3"   >
+        <rect key="frame" x="0" y="0" width="10" height="11"/>
+        <color key="backgroundColor" red="1" green="1" blue="1" alpha="0" colorSpace="calibratedRGB"/>
+        <userDefinedRuntimeAttributes></userDefinedRuntimeAttributes>
+                                <connections>
+                                </connections>
+        <constraints>
+        </constraints>
+    </imageView>
+    <imageView image="a03bantintropagedot2" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleAspectFit" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="image-accde7db-0d75-4331-9078-e1b624cfcabd" userLabel="page-dot-2"   >
+        <rect key="frame" x="30" y="0" width="10" height="11"/>
+        <color key="backgroundColor" red="1" green="1" blue="1" alpha="0" colorSpace="calibratedRGB"/>
+        <userDefinedRuntimeAttributes></userDefinedRuntimeAttributes>
+                                <connections>
+                                </connections>
+        <constraints>
+        </constraints>
+    </imageView>
+    <imageView image="a03bantintropagedot1" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleAspectFit" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="image-5c4ffea8-0e38-42d0-89a6-bef6a83261e9" userLabel="page-dot-1"   >
+        <rect key="frame" x="90" y="0" width="10" height="11"/>
+        <color key="backgroundColor" red="1" green="1" blue="1" alpha="0" colorSpace="calibratedRGB"/>
+        <userDefinedRuntimeAttributes></userDefinedRuntimeAttributes>
+                                <connections>
+                                </connections>
+        <constraints>
+        </constraints>
+    </imageView>
+        </subviews>
+        <constraints>
+            <constraint firstItem="View-82fc0f12-2e60-4275-81a7-3e8de4ee6fbf" firstAttribute="width" constant="8" priority="971" id="View-82fc0f12-2e60-4275-81a7-3e8de4ee6fbf-width" userLabel="page-dot-4-width"/>
+            <constraint firstItem="View-82fc0f12-2e60-4275-81a7-3e8de4ee6fbf" firstAttribute="height" constant="8.694621" priority="972" id="View-82fc0f12-2e60-4275-81a7-3e8de4ee6fbf-height" userLabel="page-dot-4-height"/>
+            <constraint secondAttribute="top" secondItem="View-45e1fc62-0f42-4528-a850-ad5ca243451f" firstItem="View-82fc0f12-2e60-4275-81a7-3e8de4ee6fbf" firstAttribute="top" constant="1" priority="973" id="View-82fc0f12-2e60-4275-81a7-3e8de4ee6fbf-top" userLabel="page-dot-4-top"/>
+            <constraint secondAttribute="left" secondItem="View-45e1fc62-0f42-4528-a850-ad5ca243451f" firstItem="View-82fc0f12-2e60-4275-81a7-3e8de4ee6fbf" firstAttribute="left" constant="61" priority="974" id="View-82fc0f12-2e60-4275-81a7-3e8de4ee6fbf-left" userLabel="page-dot-4-left"/>
+            <constraint firstItem="image-59312074-4324-4123-b5ca-ab465335e626" firstAttribute="width" constant="10" priority="971" id="image-59312074-4324-4123-b5ca-ab465335e626-width" userLabel="page-dot-3-width"/>
+            <constraint firstItem="image-59312074-4324-4123-b5ca-ab465335e626" firstAttribute="height" constant="11" priority="972" id="image-59312074-4324-4123-b5ca-ab465335e626-height" userLabel="page-dot-3-height"/>
+            <constraint secondAttribute="top" secondItem="View-45e1fc62-0f42-4528-a850-ad5ca243451f" firstItem="image-59312074-4324-4123-b5ca-ab465335e626" firstAttribute="top" constant="0" priority="973" id="image-59312074-4324-4123-b5ca-ab465335e626-top" userLabel="page-dot-3-top"/>
+            <constraint secondAttribute="left" secondItem="View-45e1fc62-0f42-4528-a850-ad5ca243451f" firstItem="image-59312074-4324-4123-b5ca-ab465335e626" firstAttribute="left" constant="0" priority="974" id="image-59312074-4324-4123-b5ca-ab465335e626-left" userLabel="page-dot-3-left"/>
+            <constraint firstItem="image-accde7db-0d75-4331-9078-e1b624cfcabd" firstAttribute="width" constant="10" priority="971" id="image-accde7db-0d75-4331-9078-e1b624cfcabd-width" userLabel="page-dot-2-width"/>
+            <constraint firstItem="image-accde7db-0d75-4331-9078-e1b624cfcabd" firstAttribute="height" constant="11" priority="972" id="image-accde7db-0d75-4331-9078-e1b624cfcabd-height" userLabel="page-dot-2-height"/>
+            <constraint secondAttribute="top" secondItem="View-45e1fc62-0f42-4528-a850-ad5ca243451f" firstItem="image-accde7db-0d75-4331-9078-e1b624cfcabd" firstAttribute="top" constant="0" priority="973" id="image-accde7db-0d75-4331-9078-e1b624cfcabd-top" userLabel="page-dot-2-top"/>
+            <constraint secondAttribute="left" secondItem="View-45e1fc62-0f42-4528-a850-ad5ca243451f" firstItem="image-accde7db-0d75-4331-9078-e1b624cfcabd" firstAttribute="left" constant="30" priority="974" id="image-accde7db-0d75-4331-9078-e1b624cfcabd-left" userLabel="page-dot-2-left"/>
+            <constraint firstItem="image-5c4ffea8-0e38-42d0-89a6-bef6a83261e9" firstAttribute="width" constant="10" priority="971" id="image-5c4ffea8-0e38-42d0-89a6-bef6a83261e9-width" userLabel="page-dot-1-width"/>
+            <constraint firstItem="image-5c4ffea8-0e38-42d0-89a6-bef6a83261e9" firstAttribute="height" constant="11" priority="972" id="image-5c4ffea8-0e38-42d0-89a6-bef6a83261e9-height" userLabel="page-dot-1-height"/>
+            <constraint secondAttribute="top" secondItem="View-45e1fc62-0f42-4528-a850-ad5ca243451f" firstItem="image-5c4ffea8-0e38-42d0-89a6-bef6a83261e9" firstAttribute="top" constant="0" priority="973" id="image-5c4ffea8-0e38-42d0-89a6-bef6a83261e9-top" userLabel="page-dot-1-top"/>
+            <constraint secondAttribute="left" secondItem="View-45e1fc62-0f42-4528-a850-ad5ca243451f" firstItem="image-5c4ffea8-0e38-42d0-89a6-bef6a83261e9" firstAttribute="left" constant="90" priority="974" id="image-5c4ffea8-0e38-42d0-89a6-bef6a83261e9-left" userLabel="page-dot-1-left"/>
+        </constraints>
+    </view>
+    <imageView image="a03bantintroreminder" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleAspectFit" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="image-d7507361-54e4-4515-93d3-a875bab4faa6" userLabel="reminder"   >
+        <rect key="frame" x="136" y="199" width="104" height="102"/>
+        <color key="backgroundColor" red="1" green="1" blue="1" alpha="0" colorSpace="calibratedRGB"/>
+        <userDefinedRuntimeAttributes></userDefinedRuntimeAttributes>
+                                <connections>
+                                </connections>
+        <constraints>
+        </constraints>
+    </imageView>
+    <imageView image="a03bantintroblood" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleAspectFit" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="image-0fe97521-c353-480f-a4d0-84ee44b5dd01" userLabel="blood"   >
+        <rect key="frame" x="161" y="83" width="55" height="60"/>
+        <color key="backgroundColor" red="1" green="1" blue="1" alpha="0" colorSpace="calibratedRGB"/>
+        <userDefinedRuntimeAttributes></userDefinedRuntimeAttributes>
+                                <connections>
+                                </connections>
+        <constraints>
+        </constraints>
+    </imageView>
+    <imageView image="a03bantintroweight" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleAspectFit" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="image-b6d6a0c4-a033-4171-af16-9e0d9f6a59f9" userLabel="weight"   >
+        <rect key="frame" x="58" y="161" width="56" height="61"/>
+        <color key="backgroundColor" red="1" green="1" blue="1" alpha="0" colorSpace="calibratedRGB"/>
+        <userDefinedRuntimeAttributes></userDefinedRuntimeAttributes>
+                                <connections>
+                                </connections>
+        <constraints>
+        </constraints>
+    </imageView>
+    <imageView image="a03bantintrofill 14" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleAspectFit" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="image-86d7d9b0-92c3-43ea-bf3b-b8e29d58bb4b" userLabel="Fill 14"   >
+        <rect key="frame" x="262" y="161" width="56" height="61"/>
+        <color key="backgroundColor" red="1" green="1" blue="1" alpha="0" colorSpace="calibratedRGB"/>
+        <userDefinedRuntimeAttributes></userDefinedRuntimeAttributes>
+                                <connections>
+                                </connections>
+        <constraints>
+        </constraints>
+    </imageView>
+        </subviews>
+        <constraints>
+            <constraint firstItem="Label-028cd495-6b02-4edb-8e12-648c24c7188e" firstAttribute="width" constant="187" priority="971" id="Label-028cd495-6b02-4edb-8e12-648c24c7188e-width" userLabel="Label: Set Reminders-width"/>
+            <constraint firstItem="Label-028cd495-6b02-4edb-8e12-648c24c7188e" firstAttribute="height" constant="30" priority="972" id="Label-028cd495-6b02-4edb-8e12-648c24c7188e-height" userLabel="Label: Set Reminders-height"/>
+            <constraint secondAttribute="top" secondItem="screen-3d1e2063-de3c-49f4-b937-4a0bf60f0882" firstItem="Label-028cd495-6b02-4edb-8e12-648c24c7188e" firstAttribute="top" constant="374.2901" priority="973" id="Label-028cd495-6b02-4edb-8e12-648c24c7188e-top" userLabel="Label: Set Reminders-top"/>
+            <constraint secondAttribute="left" secondItem="screen-3d1e2063-de3c-49f4-b937-4a0bf60f0882" firstItem="Label-028cd495-6b02-4edb-8e12-648c24c7188e" firstAttribute="left" constant="95" priority="974" id="Label-028cd495-6b02-4edb-8e12-648c24c7188e-left" userLabel="Label: Set Reminders-left"/>
+            <constraint firstItem="Label-fe4629b1-33e5-400b-b12f-740ec6a96947" firstAttribute="width" constant="282" priority="971" id="Label-fe4629b1-33e5-400b-b12f-740ec6a96947-width" userLabel="Label: Personalize your meal times, reminders and blood glucose range in settings.-width"/>
+            <constraint firstItem="Label-fe4629b1-33e5-400b-b12f-740ec6a96947" firstAttribute="height" constant="60.71581" priority="972" id="Label-fe4629b1-33e5-400b-b12f-740ec6a96947-height" userLabel="Label: Personalize your meal times, reminders and blood glucose range in settings.-height"/>
+            <constraint secondAttribute="top" secondItem="screen-3d1e2063-de3c-49f4-b937-4a0bf60f0882" firstItem="Label-fe4629b1-33e5-400b-b12f-740ec6a96947" firstAttribute="top" constant="425.2842" priority="973" id="Label-fe4629b1-33e5-400b-b12f-740ec6a96947-top" userLabel="Label: Personalize your meal times, reminders and blood glucose range in settings.-top"/>
+            <constraint secondAttribute="left" secondItem="screen-3d1e2063-de3c-49f4-b937-4a0bf60f0882" firstItem="Label-fe4629b1-33e5-400b-b12f-740ec6a96947" firstAttribute="left" constant="47" priority="974" id="Label-fe4629b1-33e5-400b-b12f-740ec6a96947-left" userLabel="Label: Personalize your meal times, reminders and blood glucose range in settings.-left"/>
+            <constraint firstItem="View-45e1fc62-0f42-4528-a850-ad5ca243451f" firstAttribute="width" constant="100" priority="971" id="View-45e1fc62-0f42-4528-a850-ad5ca243451f-width" userLabel="page-dots-width"/>
+            <constraint firstItem="View-45e1fc62-0f42-4528-a850-ad5ca243451f" firstAttribute="height" constant="11" priority="972" id="View-45e1fc62-0f42-4528-a850-ad5ca243451f-height" userLabel="page-dots-height"/>
+            <constraint secondAttribute="top" secondItem="screen-3d1e2063-de3c-49f4-b937-4a0bf60f0882" firstItem="View-45e1fc62-0f42-4528-a850-ad5ca243451f" firstAttribute="top" constant="611" priority="973" id="View-45e1fc62-0f42-4528-a850-ad5ca243451f-top" userLabel="page-dots-top"/>
+            <constraint secondAttribute="left" secondItem="screen-3d1e2063-de3c-49f4-b937-4a0bf60f0882" firstItem="View-45e1fc62-0f42-4528-a850-ad5ca243451f" firstAttribute="left" constant="137" priority="974" id="View-45e1fc62-0f42-4528-a850-ad5ca243451f-left" userLabel="page-dots-left"/>
+            <constraint firstItem="image-d7507361-54e4-4515-93d3-a875bab4faa6" firstAttribute="width" constant="104" priority="971" id="image-d7507361-54e4-4515-93d3-a875bab4faa6-width" userLabel="reminder-width"/>
+            <constraint firstItem="image-d7507361-54e4-4515-93d3-a875bab4faa6" firstAttribute="height" constant="102" priority="972" id="image-d7507361-54e4-4515-93d3-a875bab4faa6-height" userLabel="reminder-height"/>
+            <constraint secondAttribute="top" secondItem="screen-3d1e2063-de3c-49f4-b937-4a0bf60f0882" firstItem="image-d7507361-54e4-4515-93d3-a875bab4faa6" firstAttribute="top" constant="199" priority="973" id="image-d7507361-54e4-4515-93d3-a875bab4faa6-top" userLabel="reminder-top"/>
+            <constraint secondAttribute="left" secondItem="screen-3d1e2063-de3c-49f4-b937-4a0bf60f0882" firstItem="image-d7507361-54e4-4515-93d3-a875bab4faa6" firstAttribute="left" constant="136" priority="974" id="image-d7507361-54e4-4515-93d3-a875bab4faa6-left" userLabel="reminder-left"/>
+            <constraint firstItem="image-0fe97521-c353-480f-a4d0-84ee44b5dd01" firstAttribute="width" constant="55" priority="971" id="image-0fe97521-c353-480f-a4d0-84ee44b5dd01-width" userLabel="blood-width"/>
+            <constraint firstItem="image-0fe97521-c353-480f-a4d0-84ee44b5dd01" firstAttribute="height" constant="60" priority="972" id="image-0fe97521-c353-480f-a4d0-84ee44b5dd01-height" userLabel="blood-height"/>
+            <constraint secondAttribute="top" secondItem="screen-3d1e2063-de3c-49f4-b937-4a0bf60f0882" firstItem="image-0fe97521-c353-480f-a4d0-84ee44b5dd01" firstAttribute="top" constant="83" priority="973" id="image-0fe97521-c353-480f-a4d0-84ee44b5dd01-top" userLabel="blood-top"/>
+            <constraint secondAttribute="left" secondItem="screen-3d1e2063-de3c-49f4-b937-4a0bf60f0882" firstItem="image-0fe97521-c353-480f-a4d0-84ee44b5dd01" firstAttribute="left" constant="161" priority="974" id="image-0fe97521-c353-480f-a4d0-84ee44b5dd01-left" userLabel="blood-left"/>
+            <constraint firstItem="image-b6d6a0c4-a033-4171-af16-9e0d9f6a59f9" firstAttribute="width" constant="56" priority="971" id="image-b6d6a0c4-a033-4171-af16-9e0d9f6a59f9-width" userLabel="weight-width"/>
+            <constraint firstItem="image-b6d6a0c4-a033-4171-af16-9e0d9f6a59f9" firstAttribute="height" constant="61" priority="972" id="image-b6d6a0c4-a033-4171-af16-9e0d9f6a59f9-height" userLabel="weight-height"/>
+            <constraint secondAttribute="top" secondItem="screen-3d1e2063-de3c-49f4-b937-4a0bf60f0882" firstItem="image-b6d6a0c4-a033-4171-af16-9e0d9f6a59f9" firstAttribute="top" constant="161" priority="973" id="image-b6d6a0c4-a033-4171-af16-9e0d9f6a59f9-top" userLabel="weight-top"/>
+            <constraint secondAttribute="left" secondItem="screen-3d1e2063-de3c-49f4-b937-4a0bf60f0882" firstItem="image-b6d6a0c4-a033-4171-af16-9e0d9f6a59f9" firstAttribute="left" constant="58" priority="974" id="image-b6d6a0c4-a033-4171-af16-9e0d9f6a59f9-left" userLabel="weight-left"/>
+            <constraint firstItem="image-86d7d9b0-92c3-43ea-bf3b-b8e29d58bb4b" firstAttribute="width" constant="56" priority="971" id="image-86d7d9b0-92c3-43ea-bf3b-b8e29d58bb4b-width" userLabel="Fill 14-width"/>
+            <constraint firstItem="image-86d7d9b0-92c3-43ea-bf3b-b8e29d58bb4b" firstAttribute="height" constant="61" priority="972" id="image-86d7d9b0-92c3-43ea-bf3b-b8e29d58bb4b-height" userLabel="Fill 14-height"/>
+            <constraint secondAttribute="top" secondItem="screen-3d1e2063-de3c-49f4-b937-4a0bf60f0882" firstItem="image-86d7d9b0-92c3-43ea-bf3b-b8e29d58bb4b" firstAttribute="top" constant="161" priority="973" id="image-86d7d9b0-92c3-43ea-bf3b-b8e29d58bb4b-top" userLabel="Fill 14-top"/>
+            <constraint secondAttribute="left" secondItem="screen-3d1e2063-de3c-49f4-b937-4a0bf60f0882" firstItem="image-86d7d9b0-92c3-43ea-bf3b-b8e29d58bb4b" firstAttribute="left" constant="262" priority="974" id="image-86d7d9b0-92c3-43ea-bf3b-b8e29d58bb4b-left" userLabel="Fill 14-left"/>
+        </constraints>
+                                <connections>
+                                </connections>
+</view>
+                    <userDefinedRuntimeAttributes>
+                    <userDefinedRuntimeAttribute type="boolean" keyPath="hidesNavBar" value="YES"/>
+                    <userDefinedRuntimeAttribute type="boolean" keyPath="hidesStatusBar" value="YES"/>
+                    <userDefinedRuntimeAttribute type="boolean" keyPath="lightStatusBar" value="NO"/>
+                    </userDefinedRuntimeAttributes>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="375" height="667"/>
+                    <connections>
+                        <outlet property="labelSetReminders" destination="Label-028cd495-6b02-4edb-8e12-648c24c7188e" id="labelSetReminders-screen-3d1e2063-de3c-49f4-b937-4a0bf60f0882-Prop"/>
+                        <outlet property="labelPersonalizeYourMealTimesRemindersAndBloodGlucoseRangeInSettings" destination="Label-fe4629b1-33e5-400b-b12f-740ec6a96947" id="labelPersonalizeYourMealTimesRemindersAndBloodGlucoseRangeInSettings-screen-3d1e2063-de3c-49f4-b937-4a0bf60f0882-Prop"/>
+                        <outlet property="pagedots" destination="View-45e1fc62-0f42-4528-a850-ad5ca243451f" id="pagedots-screen-3d1e2063-de3c-49f4-b937-4a0bf60f0882-Prop"/>
+                        <outlet property="pagedotsPagedot4" destination="View-82fc0f12-2e60-4275-81a7-3e8de4ee6fbf" id="pagedotsPagedot4-screen-3d1e2063-de3c-49f4-b937-4a0bf60f0882-Prop"/>
+                        <outlet property="pagedotsPagedot3" destination="image-59312074-4324-4123-b5ca-ab465335e626" id="pagedotsPagedot3-screen-3d1e2063-de3c-49f4-b937-4a0bf60f0882-Prop"/>
+                        <outlet property="pagedotsPagedot2" destination="image-accde7db-0d75-4331-9078-e1b624cfcabd" id="pagedotsPagedot2-screen-3d1e2063-de3c-49f4-b937-4a0bf60f0882-Prop"/>
+                        <outlet property="pagedotsPagedot1" destination="image-5c4ffea8-0e38-42d0-89a6-bef6a83261e9" id="pagedotsPagedot1-screen-3d1e2063-de3c-49f4-b937-4a0bf60f0882-Prop"/>
+                        <outlet property="reminder" destination="image-d7507361-54e4-4515-93d3-a875bab4faa6" id="reminder-screen-3d1e2063-de3c-49f4-b937-4a0bf60f0882-Prop"/>
+                        <outlet property="blood" destination="image-0fe97521-c353-480f-a4d0-84ee44b5dd01" id="blood-screen-3d1e2063-de3c-49f4-b937-4a0bf60f0882-Prop"/>
+                        <outlet property="weight" destination="image-b6d6a0c4-a033-4171-af16-9e0d9f6a59f9" id="weight-screen-3d1e2063-de3c-49f4-b937-4a0bf60f0882-Prop"/>
+                        <outlet property="fill14" destination="image-86d7d9b0-92c3-43ea-bf3b-b8e29d58bb4b" id="fill14-screen-3d1e2063-de3c-49f4-b937-4a0bf60f0882-Prop"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="screen-3d1e2063-de3c-49f4-b937-4a0bf60f0882-FR" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="475" y="842"/>
+        </scene>
+    
+<!--A04_bant_intro-->
+        <scene sceneID="screen-c93b8e21-25e1-4b5a-8d73-7bf2438610aa-Scene">
+            <objects>
+                <viewController restorationIdentifier="a04bantintro" storyboardIdentifier="a04bantintro" id="screen-c93b8e21-25e1-4b5a-8d73-7bf2438610aa-VC" userLabel="A04_bant_intro" sceneMemberID="viewController" customClass="APA04bantintroVC" customModuleProvider="target">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="screen-c93b8e21-25e1-4b5a-8d73-7bf2438610aa-Top"/>
+                        <viewControllerLayoutGuide type="bottom" id="screen-c93b8e21-25e1-4b5a-8d73-7bf2438610aa-Bottom"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="screen-c93b8e21-25e1-4b5a-8d73-7bf2438610aa" >
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+        <subviews>
+    <view opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="View-f79f371f-2939-470e-8bbb-51183865d961" userLabel="Group 3"  >
+        <rect key="frame" x="137" y="611" width="98" height="11"/>
+        <color key="backgroundColor" red="1" green="1" blue="1" alpha="0" colorSpace="calibratedRGB"/>
+        <userDefinedRuntimeAttributes></userDefinedRuntimeAttributes>
+                                <connections>
+                                </connections>
+        <subviews>
+    <imageView image="a04bantintrooval 4" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleAspectFit" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="image-63cd586a-2cf4-49e3-be9c-1c093baf8a78" userLabel="Oval 4"   >
+        <rect key="frame" x="0" y="0" width="10" height="11"/>
+        <color key="backgroundColor" red="1" green="1" blue="1" alpha="0" colorSpace="calibratedRGB"/>
+        <userDefinedRuntimeAttributes></userDefinedRuntimeAttributes>
+                                <connections>
+                                </connections>
+        <constraints>
+        </constraints>
+    </imageView>
+    <imageView image="a04bantintrooval 4  1" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleAspectFit" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="image-f1f740c0-6d6f-49a4-811a-dc5c952587be" userLabel="Oval 4"   >
+        <rect key="frame" x="30" y="0" width="10" height="11"/>
+        <color key="backgroundColor" red="1" green="1" blue="1" alpha="0" colorSpace="calibratedRGB"/>
+        <userDefinedRuntimeAttributes></userDefinedRuntimeAttributes>
+                                <connections>
+                                </connections>
+        <constraints>
+        </constraints>
+    </imageView>
+    <imageView image="a04bantintrooval 4  2" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleAspectFit" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="image-5a10c468-461a-4adf-9880-5349ba797b03" userLabel="Oval 4"   >
+        <rect key="frame" x="60" y="0" width="10" height="11"/>
+        <color key="backgroundColor" red="1" green="1" blue="1" alpha="0" colorSpace="calibratedRGB"/>
+        <userDefinedRuntimeAttributes></userDefinedRuntimeAttributes>
+                                <connections>
+                                </connections>
+        <constraints>
+        </constraints>
+    </imageView>
+    <view opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="View-8c599e1d-488d-459c-bd06-7b5252fe740d" userLabel="Oval 4"  >
+        <rect key="frame" x="91" y="1" width="8" height="8.694621"/>
+        <color key="backgroundColor" red="0" green="0" blue="0" alpha="0.12" colorSpace="calibratedRGB"/>
+        <userDefinedRuntimeAttributes>
+            <userDefinedRuntimeAttribute type="number" keyPath="anCornerRadius">
+                <real key="value" value="4"/>
+            </userDefinedRuntimeAttribute>
+        </userDefinedRuntimeAttributes>
+                                <connections>
+                                </connections>
+        <constraints>
+        </constraints>
+    </view>
+    <view opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="View-d75f0f0f-59af-4d65-8c72-67f3e62842c5" userLabel="Oval 4"  >
+        <rect key="frame" x="91" y="1" width="8" height="8.694621"/>
+        <color key="backgroundColor" red="0.1294118" green="0.5882353" blue="0.9529412" alpha="1" colorSpace="calibratedRGB"/>
+        <userDefinedRuntimeAttributes>
+            <userDefinedRuntimeAttribute type="number" keyPath="anCornerRadius">
+                <real key="value" value="4"/>
+            </userDefinedRuntimeAttribute>
+        </userDefinedRuntimeAttributes>
+                                <connections>
+                                </connections>
+        <constraints>
+        </constraints>
+    </view>
+        </subviews>
+        <constraints>
+            <constraint firstItem="image-63cd586a-2cf4-49e3-be9c-1c093baf8a78" firstAttribute="width" constant="10" priority="971" id="image-63cd586a-2cf4-49e3-be9c-1c093baf8a78-width" userLabel="Oval 4-width"/>
+            <constraint firstItem="image-63cd586a-2cf4-49e3-be9c-1c093baf8a78" firstAttribute="height" constant="11" priority="972" id="image-63cd586a-2cf4-49e3-be9c-1c093baf8a78-height" userLabel="Oval 4-height"/>
+            <constraint secondAttribute="top" secondItem="View-f79f371f-2939-470e-8bbb-51183865d961" firstItem="image-63cd586a-2cf4-49e3-be9c-1c093baf8a78" firstAttribute="top" constant="0" priority="973" id="image-63cd586a-2cf4-49e3-be9c-1c093baf8a78-top" userLabel="Oval 4-top"/>
+            <constraint secondAttribute="left" secondItem="View-f79f371f-2939-470e-8bbb-51183865d961" firstItem="image-63cd586a-2cf4-49e3-be9c-1c093baf8a78" firstAttribute="left" constant="0" priority="974" id="image-63cd586a-2cf4-49e3-be9c-1c093baf8a78-left" userLabel="Oval 4-left"/>
+            <constraint firstItem="image-f1f740c0-6d6f-49a4-811a-dc5c952587be" firstAttribute="width" constant="10" priority="971" id="image-f1f740c0-6d6f-49a4-811a-dc5c952587be-width" userLabel="Oval 4-width"/>
+            <constraint firstItem="image-f1f740c0-6d6f-49a4-811a-dc5c952587be" firstAttribute="height" constant="11" priority="972" id="image-f1f740c0-6d6f-49a4-811a-dc5c952587be-height" userLabel="Oval 4-height"/>
+            <constraint secondAttribute="top" secondItem="View-f79f371f-2939-470e-8bbb-51183865d961" firstItem="image-f1f740c0-6d6f-49a4-811a-dc5c952587be" firstAttribute="top" constant="0" priority="973" id="image-f1f740c0-6d6f-49a4-811a-dc5c952587be-top" userLabel="Oval 4-top"/>
+            <constraint secondAttribute="left" secondItem="View-f79f371f-2939-470e-8bbb-51183865d961" firstItem="image-f1f740c0-6d6f-49a4-811a-dc5c952587be" firstAttribute="left" constant="30" priority="974" id="image-f1f740c0-6d6f-49a4-811a-dc5c952587be-left" userLabel="Oval 4-left"/>
+            <constraint firstItem="image-5a10c468-461a-4adf-9880-5349ba797b03" firstAttribute="width" constant="10" priority="971" id="image-5a10c468-461a-4adf-9880-5349ba797b03-width" userLabel="Oval 4-width"/>
+            <constraint firstItem="image-5a10c468-461a-4adf-9880-5349ba797b03" firstAttribute="height" constant="11" priority="972" id="image-5a10c468-461a-4adf-9880-5349ba797b03-height" userLabel="Oval 4-height"/>
+            <constraint secondAttribute="top" secondItem="View-f79f371f-2939-470e-8bbb-51183865d961" firstItem="image-5a10c468-461a-4adf-9880-5349ba797b03" firstAttribute="top" constant="0" priority="973" id="image-5a10c468-461a-4adf-9880-5349ba797b03-top" userLabel="Oval 4-top"/>
+            <constraint secondAttribute="left" secondItem="View-f79f371f-2939-470e-8bbb-51183865d961" firstItem="image-5a10c468-461a-4adf-9880-5349ba797b03" firstAttribute="left" constant="60" priority="974" id="image-5a10c468-461a-4adf-9880-5349ba797b03-left" userLabel="Oval 4-left"/>
+            <constraint firstItem="View-8c599e1d-488d-459c-bd06-7b5252fe740d" firstAttribute="width" constant="8" priority="971" id="View-8c599e1d-488d-459c-bd06-7b5252fe740d-width" userLabel="Oval 4-width"/>
+            <constraint firstItem="View-8c599e1d-488d-459c-bd06-7b5252fe740d" firstAttribute="height" constant="8.694621" priority="972" id="View-8c599e1d-488d-459c-bd06-7b5252fe740d-height" userLabel="Oval 4-height"/>
+            <constraint secondAttribute="top" secondItem="View-f79f371f-2939-470e-8bbb-51183865d961" firstItem="View-8c599e1d-488d-459c-bd06-7b5252fe740d" firstAttribute="top" constant="1" priority="973" id="View-8c599e1d-488d-459c-bd06-7b5252fe740d-top" userLabel="Oval 4-top"/>
+            <constraint secondAttribute="left" secondItem="View-f79f371f-2939-470e-8bbb-51183865d961" firstItem="View-8c599e1d-488d-459c-bd06-7b5252fe740d" firstAttribute="left" constant="91" priority="974" id="View-8c599e1d-488d-459c-bd06-7b5252fe740d-left" userLabel="Oval 4-left"/>
+            <constraint firstItem="View-d75f0f0f-59af-4d65-8c72-67f3e62842c5" firstAttribute="width" constant="8" priority="971" id="View-d75f0f0f-59af-4d65-8c72-67f3e62842c5-width" userLabel="Oval 4-width"/>
+            <constraint firstItem="View-d75f0f0f-59af-4d65-8c72-67f3e62842c5" firstAttribute="height" constant="8.694621" priority="972" id="View-d75f0f0f-59af-4d65-8c72-67f3e62842c5-height" userLabel="Oval 4-height"/>
+            <constraint secondAttribute="top" secondItem="View-f79f371f-2939-470e-8bbb-51183865d961" firstItem="View-d75f0f0f-59af-4d65-8c72-67f3e62842c5" firstAttribute="top" constant="1" priority="973" id="View-d75f0f0f-59af-4d65-8c72-67f3e62842c5-top" userLabel="Oval 4-top"/>
+            <constraint secondAttribute="left" secondItem="View-f79f371f-2939-470e-8bbb-51183865d961" firstItem="View-d75f0f0f-59af-4d65-8c72-67f3e62842c5" firstAttribute="left" constant="91" priority="974" id="View-d75f0f0f-59af-4d65-8c72-67f3e62842c5-left" userLabel="Oval 4-left"/>
+        </constraints>
+    </view>
+    <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Label-6d6568a3-f066-4ba7-b275-03bc712a8795" userLabel="Label: Sync Data "   textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" horizontalHuggingPriority="251" verticalHuggingPriority="251" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" >
+        <string key="text">Sync Data </string>
+        <rect key="frame" x="117.5" y="335.1643" width="141" height="30.83568"/>
+        <color key="backgroundColor" red="1" green="1" blue="1" alpha="0" colorSpace="calibratedRGB"/>
+        <userDefinedRuntimeAttributes>
+            <userDefinedRuntimeAttribute type="number" keyPath="letterSpacing">
+                <real key="value" value="0"/>
+            </userDefinedRuntimeAttribute>
+            <userDefinedRuntimeAttribute type="number" keyPath="lineHeight">
+                <real key="value" value="0"/>
+            </userDefinedRuntimeAttribute>
+            <userDefinedRuntimeAttribute type="number" keyPath="paragraphSpacing">
+                <real key="value" value="0"/>
+            </userDefinedRuntimeAttribute>
+            
+        </userDefinedRuntimeAttributes>
+                                <connections>
+                                </connections>
+        <fontDescription key="fontDescription" pointSize="26" type="system" />
+        <color key="textColor" red="0" green="0" blue="0" alpha="0.87" colorSpace="calibratedRGB"/>
+        <nil key="highlightedColor"/>
+        <constraints>
+        </constraints>
+    </label>
+    <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Label-1f310131-246e-47b4-936b-b794fd271619" userLabel="Label: Sync your health data, between all of your apps."  customClass="ANLabel" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" horizontalHuggingPriority="251" verticalHuggingPriority="251" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" >
+        <string key="text">Sync your health data, between all of your apps.</string>
+        <rect key="frame" x="69" y="386.1584" width="239" height="40.84161"/>
+        <color key="backgroundColor" red="1" green="1" blue="1" alpha="0" colorSpace="calibratedRGB"/>
+        <userDefinedRuntimeAttributes>
+            <userDefinedRuntimeAttribute type="number" keyPath="letterSpacing">
+                <real key="value" value="0"/>
+            </userDefinedRuntimeAttribute>
+            <userDefinedRuntimeAttribute type="number" keyPath="lineHeight">
+                <real key="value" value="20"/>
+            </userDefinedRuntimeAttribute>
+            <userDefinedRuntimeAttribute type="number" keyPath="paragraphSpacing">
+                <real key="value" value="0"/>
+            </userDefinedRuntimeAttribute>
+            
+        </userDefinedRuntimeAttributes>
+                                <connections>
+                                </connections>
+        <fontDescription key="fontDescription" pointSize="17" type="system" />
+        <color key="textColor" red="0" green="0" blue="0" alpha="0.54" colorSpace="calibratedRGB"/>
+        <nil key="highlightedColor"/>
+        <constraints>
+        </constraints>
+    </label>
+    <view opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="View-e14d97d5-37f6-4eaf-a8ec-0d124aa0e507" userLabel="Group"  >
+        <rect key="frame" x="204" y="116.712" width="78" height="91.28805"/>
+        <color key="backgroundColor" red="1" green="1" blue="1" alpha="0" colorSpace="calibratedRGB"/>
+        <userDefinedRuntimeAttributes></userDefinedRuntimeAttributes>
+                                <connections>
+                                </connections>
+        <subviews>
+    <imageView image="a04bantintroline" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleAspectFit" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="image-3469769a-8214-4b84-a88f-a0f80ec27193" userLabel="Line"   >
+        <rect key="frame" x="18" y="67.28805" width="60" height="19"/>
+        <color key="backgroundColor" red="1" green="1" blue="1" alpha="0" colorSpace="calibratedRGB"/>
+        <userDefinedRuntimeAttributes></userDefinedRuntimeAttributes>
+                                <connections>
+                                </connections>
+        <constraints>
+        </constraints>
+    </imageView>
+    <imageView image="a04bantintroline  1" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleAspectFit" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="image-f1b9a99a-be49-4403-a89c-e3d1c13cd983" userLabel="Line"   >
+        <rect key="frame" x="0" y="0" width="29" height="91.28805"/>
+        <color key="backgroundColor" red="1" green="1" blue="1" alpha="0" colorSpace="calibratedRGB"/>
+        <userDefinedRuntimeAttributes></userDefinedRuntimeAttributes>
+                                <connections>
+                                </connections>
+        <constraints>
+        </constraints>
+    </imageView>
+        </subviews>
+        <constraints>
+            <constraint firstItem="image-3469769a-8214-4b84-a88f-a0f80ec27193" firstAttribute="width" constant="60" priority="971" id="image-3469769a-8214-4b84-a88f-a0f80ec27193-width" userLabel="Line-width"/>
+            <constraint firstItem="image-3469769a-8214-4b84-a88f-a0f80ec27193" firstAttribute="height" constant="19" priority="972" id="image-3469769a-8214-4b84-a88f-a0f80ec27193-height" userLabel="Line-height"/>
+            <constraint secondAttribute="top" secondItem="View-e14d97d5-37f6-4eaf-a8ec-0d124aa0e507" firstItem="image-3469769a-8214-4b84-a88f-a0f80ec27193" firstAttribute="top" constant="67.28805" priority="973" id="image-3469769a-8214-4b84-a88f-a0f80ec27193-top" userLabel="Line-top"/>
+            <constraint secondAttribute="left" secondItem="View-e14d97d5-37f6-4eaf-a8ec-0d124aa0e507" firstItem="image-3469769a-8214-4b84-a88f-a0f80ec27193" firstAttribute="left" constant="18" priority="974" id="image-3469769a-8214-4b84-a88f-a0f80ec27193-left" userLabel="Line-left"/>
+            <constraint firstItem="image-f1b9a99a-be49-4403-a89c-e3d1c13cd983" firstAttribute="width" constant="29" priority="971" id="image-f1b9a99a-be49-4403-a89c-e3d1c13cd983-width" userLabel="Line-width"/>
+            <constraint firstItem="image-f1b9a99a-be49-4403-a89c-e3d1c13cd983" firstAttribute="height" constant="91.28805" priority="972" id="image-f1b9a99a-be49-4403-a89c-e3d1c13cd983-height" userLabel="Line-height"/>
+            <constraint secondAttribute="top" secondItem="View-e14d97d5-37f6-4eaf-a8ec-0d124aa0e507" firstItem="image-f1b9a99a-be49-4403-a89c-e3d1c13cd983" firstAttribute="top" constant="0" priority="973" id="image-f1b9a99a-be49-4403-a89c-e3d1c13cd983-top" userLabel="Line-top"/>
+            <constraint secondAttribute="left" secondItem="View-e14d97d5-37f6-4eaf-a8ec-0d124aa0e507" firstItem="image-f1b9a99a-be49-4403-a89c-e3d1c13cd983" firstAttribute="left" constant="0" priority="974" id="image-f1b9a99a-be49-4403-a89c-e3d1c13cd983-left" userLabel="Line-left"/>
+        </constraints>
+    </view>
+    <imageView image="a04bantintrogroup" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleAspectFit" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="image-59913747-ca89-457b-8d08-8415dc50222c" userLabel="Group"   >
+        <rect key="frame" x="141" y="116" width="30" height="92"/>
+        <color key="backgroundColor" red="1" green="1" blue="1" alpha="0" colorSpace="calibratedRGB"/>
+        <userDefinedRuntimeAttributes></userDefinedRuntimeAttributes>
+                                <connections>
+                                </connections>
+        <constraints>
+        </constraints>
+    </imageView>
+    <imageView image="a04bantintroline  2" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleAspectFit" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="image-8935776f-1702-41f1-8e21-667fd66d37a3" userLabel="Line"   >
+        <rect key="frame" x="94" y="184" width="60" height="19"/>
+        <color key="backgroundColor" red="1" green="1" blue="1" alpha="0" colorSpace="calibratedRGB"/>
+        <userDefinedRuntimeAttributes></userDefinedRuntimeAttributes>
+                                <connections>
+                                </connections>
+        <constraints>
+        </constraints>
+    </imageView>
+    <imageView image="a04bantintromeal" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleAspectFit" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="image-d03167f0-43f4-4cc2-9551-753aeba92db4" userLabel="meal"   >
+        <rect key="frame" x="102" y="43" width="55" height="60"/>
+        <color key="backgroundColor" red="1" green="1" blue="1" alpha="0" colorSpace="calibratedRGB"/>
+        <userDefinedRuntimeAttributes></userDefinedRuntimeAttributes>
+                                <connections>
+                                </connections>
+        <constraints>
+        </constraints>
+    </imageView>
+    <imageView image="a04bantintroweight" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleAspectFit" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="image-917baf87-82e2-40f2-8b37-ec95edea7100" userLabel="weight"   >
+        <rect key="frame" x="219" y="43" width="55" height="61"/>
+        <color key="backgroundColor" red="1" green="1" blue="1" alpha="0" colorSpace="calibratedRGB"/>
+        <userDefinedRuntimeAttributes></userDefinedRuntimeAttributes>
+                                <connections>
+                                </connections>
+        <constraints>
+        </constraints>
+    </imageView>
+    <imageView image="a04bantintroactivity" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleAspectFit" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="image-307779d5-c2ec-454e-a6d8-098cd4e94b98" userLabel="activity"   >
+        <rect key="frame" x="35" y="143" width="55" height="61"/>
+        <color key="backgroundColor" red="1" green="1" blue="1" alpha="0" colorSpace="calibratedRGB"/>
+        <userDefinedRuntimeAttributes></userDefinedRuntimeAttributes>
+                                <connections>
+                                </connections>
+        <constraints>
+        </constraints>
+    </imageView>
+    <imageView image="a04bantintroblood" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleAspectFit" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="image-e8927950-3d61-4192-831f-f63010d0b5f8" userLabel="blood"   >
+        <rect key="frame" x="285" y="143" width="55" height="61"/>
+        <color key="backgroundColor" red="1" green="1" blue="1" alpha="0" colorSpace="calibratedRGB"/>
+        <userDefinedRuntimeAttributes></userDefinedRuntimeAttributes>
+                                <connections>
+                                </connections>
+        <constraints>
+        </constraints>
+    </imageView>
+    <imageView image="a04bantintrophone" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleAspectFit" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="image-ff742266-069b-496f-8886-0bc32a41c17e" userLabel="phone"   >
+        <rect key="frame" x="160" y="191" width="55" height="101"/>
+        <color key="backgroundColor" red="1" green="1" blue="1" alpha="0" colorSpace="calibratedRGB"/>
+        <userDefinedRuntimeAttributes></userDefinedRuntimeAttributes>
+                                <connections>
+                                </connections>
+        <constraints>
+        </constraints>
+    </imageView>
+    <view opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="View-bf797ef7-18ea-4b18-b278-ad9581cbe70a" userLabel="Group Copy"  >
+        <rect key="frame" x="14" y="484" width="344" height="85"/>
+        <color key="backgroundColor" red="1" green="1" blue="1" alpha="0" colorSpace="calibratedRGB"/>
+        <userDefinedRuntimeAttributes></userDefinedRuntimeAttributes>
+                                <connections>
+                                </connections>
+        <subviews>
+    <imageView image="a04bantintrobutton" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleAspectFit" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="image-b3bda2f5-7a6b-4223-99f5-e59624f6cda1" userLabel="button"   >
+        <rect key="frame" x="0" y="0" width="344" height="85"/>
+        <color key="backgroundColor" red="1" green="1" blue="1" alpha="0" colorSpace="calibratedRGB"/>
+        <userDefinedRuntimeAttributes></userDefinedRuntimeAttributes>
+                                <connections>
+                                </connections>
+        <constraints>
+        </constraints>
+    </imageView>
+    <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Label-d605a3ca-c65f-447b-8e49-12d525d73eee" userLabel="Label: Sync Now"  customClass="ANLabel" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" horizontalHuggingPriority="251" verticalHuggingPriority="251" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" >
+        <string key="text">Sync Now</string>
+        <rect key="frame" x="110.5893" y="21.79627" width="123.8214" height="29.20373"/>
+        <color key="backgroundColor" red="1" green="1" blue="1" alpha="0" colorSpace="calibratedRGB"/>
+        <userDefinedRuntimeAttributes>
+            <userDefinedRuntimeAttribute type="number" keyPath="letterSpacing">
+                <real key="value" value="0.8214285"/>
+            </userDefinedRuntimeAttribute>
+            <userDefinedRuntimeAttribute type="number" keyPath="lineHeight">
+                <real key="value" value="29"/>
+            </userDefinedRuntimeAttribute>
+            <userDefinedRuntimeAttribute type="number" keyPath="paragraphSpacing">
+                <real key="value" value="0"/>
+            </userDefinedRuntimeAttribute>
+            
+        </userDefinedRuntimeAttributes>
+                                <connections>
+                                </connections>
+        <fontDescription key="fontDescription" pointSize="23" type="system" />
+        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+        <nil key="highlightedColor"/>
+        <constraints>
+        </constraints>
+    </label>
+        </subviews>
+        <constraints>
+            <constraint firstItem="image-b3bda2f5-7a6b-4223-99f5-e59624f6cda1" firstAttribute="width" constant="344" priority="971" id="image-b3bda2f5-7a6b-4223-99f5-e59624f6cda1-width" userLabel="button-width"/>
+            <constraint firstItem="image-b3bda2f5-7a6b-4223-99f5-e59624f6cda1" firstAttribute="height" constant="85" priority="972" id="image-b3bda2f5-7a6b-4223-99f5-e59624f6cda1-height" userLabel="button-height"/>
+            <constraint secondAttribute="top" secondItem="View-bf797ef7-18ea-4b18-b278-ad9581cbe70a" firstItem="image-b3bda2f5-7a6b-4223-99f5-e59624f6cda1" firstAttribute="top" constant="0" priority="973" id="image-b3bda2f5-7a6b-4223-99f5-e59624f6cda1-top" userLabel="button-top"/>
+            <constraint secondAttribute="left" secondItem="View-bf797ef7-18ea-4b18-b278-ad9581cbe70a" firstItem="image-b3bda2f5-7a6b-4223-99f5-e59624f6cda1" firstAttribute="left" constant="0" priority="974" id="image-b3bda2f5-7a6b-4223-99f5-e59624f6cda1-left" userLabel="button-left"/>
+            <constraint firstItem="Label-d605a3ca-c65f-447b-8e49-12d525d73eee" firstAttribute="width" constant="123.8214" priority="971" id="Label-d605a3ca-c65f-447b-8e49-12d525d73eee-width" userLabel="Label: Sync Now-width"/>
+            <constraint firstItem="Label-d605a3ca-c65f-447b-8e49-12d525d73eee" firstAttribute="height" constant="29.20373" priority="972" id="Label-d605a3ca-c65f-447b-8e49-12d525d73eee-height" userLabel="Label: Sync Now-height"/>
+            <constraint secondAttribute="top" secondItem="View-bf797ef7-18ea-4b18-b278-ad9581cbe70a" firstItem="Label-d605a3ca-c65f-447b-8e49-12d525d73eee" firstAttribute="top" constant="21.79627" priority="973" id="Label-d605a3ca-c65f-447b-8e49-12d525d73eee-top" userLabel="Label: Sync Now-top"/>
+            <constraint secondAttribute="left" secondItem="View-bf797ef7-18ea-4b18-b278-ad9581cbe70a" firstItem="Label-d605a3ca-c65f-447b-8e49-12d525d73eee" firstAttribute="left" constant="110.5893" priority="974" id="Label-d605a3ca-c65f-447b-8e49-12d525d73eee-left" userLabel="Label: Sync Now-left"/>
+        </constraints>
+    </view>
+        </subviews>
+        <constraints>
+            <constraint firstItem="View-f79f371f-2939-470e-8bbb-51183865d961" firstAttribute="width" constant="98" priority="971" id="View-f79f371f-2939-470e-8bbb-51183865d961-width" userLabel="Group 3-width"/>
+            <constraint firstItem="View-f79f371f-2939-470e-8bbb-51183865d961" firstAttribute="height" constant="11" priority="972" id="View-f79f371f-2939-470e-8bbb-51183865d961-height" userLabel="Group 3-height"/>
+            <constraint secondAttribute="top" secondItem="screen-c93b8e21-25e1-4b5a-8d73-7bf2438610aa" firstItem="View-f79f371f-2939-470e-8bbb-51183865d961" firstAttribute="top" constant="611" priority="973" id="View-f79f371f-2939-470e-8bbb-51183865d961-top" userLabel="Group 3-top"/>
+            <constraint secondAttribute="left" secondItem="screen-c93b8e21-25e1-4b5a-8d73-7bf2438610aa" firstItem="View-f79f371f-2939-470e-8bbb-51183865d961" firstAttribute="left" constant="137" priority="974" id="View-f79f371f-2939-470e-8bbb-51183865d961-left" userLabel="Group 3-left"/>
+            <constraint firstItem="Label-6d6568a3-f066-4ba7-b275-03bc712a8795" firstAttribute="width" constant="141" priority="971" id="Label-6d6568a3-f066-4ba7-b275-03bc712a8795-width" userLabel="Label: Sync Data -width"/>
+            <constraint firstItem="Label-6d6568a3-f066-4ba7-b275-03bc712a8795" firstAttribute="height" constant="30.83568" priority="972" id="Label-6d6568a3-f066-4ba7-b275-03bc712a8795-height" userLabel="Label: Sync Data -height"/>
+            <constraint secondAttribute="top" secondItem="screen-c93b8e21-25e1-4b5a-8d73-7bf2438610aa" firstItem="Label-6d6568a3-f066-4ba7-b275-03bc712a8795" firstAttribute="top" constant="335.1643" priority="973" id="Label-6d6568a3-f066-4ba7-b275-03bc712a8795-top" userLabel="Label: Sync Data -top"/>
+            <constraint secondAttribute="left" secondItem="screen-c93b8e21-25e1-4b5a-8d73-7bf2438610aa" firstItem="Label-6d6568a3-f066-4ba7-b275-03bc712a8795" firstAttribute="left" constant="117.5" priority="974" id="Label-6d6568a3-f066-4ba7-b275-03bc712a8795-left" userLabel="Label: Sync Data -left"/>
+            <constraint firstItem="Label-1f310131-246e-47b4-936b-b794fd271619" firstAttribute="width" constant="239" priority="971" id="Label-1f310131-246e-47b4-936b-b794fd271619-width" userLabel="Label: Sync your health data, between all of your apps.-width"/>
+            <constraint firstItem="Label-1f310131-246e-47b4-936b-b794fd271619" firstAttribute="height" constant="40.84161" priority="972" id="Label-1f310131-246e-47b4-936b-b794fd271619-height" userLabel="Label: Sync your health data, between all of your apps.-height"/>
+            <constraint secondAttribute="top" secondItem="screen-c93b8e21-25e1-4b5a-8d73-7bf2438610aa" firstItem="Label-1f310131-246e-47b4-936b-b794fd271619" firstAttribute="top" constant="386.1584" priority="973" id="Label-1f310131-246e-47b4-936b-b794fd271619-top" userLabel="Label: Sync your health data, between all of your apps.-top"/>
+            <constraint secondAttribute="left" secondItem="screen-c93b8e21-25e1-4b5a-8d73-7bf2438610aa" firstItem="Label-1f310131-246e-47b4-936b-b794fd271619" firstAttribute="left" constant="69" priority="974" id="Label-1f310131-246e-47b4-936b-b794fd271619-left" userLabel="Label: Sync your health data, between all of your apps.-left"/>
+            <constraint firstItem="View-e14d97d5-37f6-4eaf-a8ec-0d124aa0e507" firstAttribute="width" constant="78" priority="971" id="View-e14d97d5-37f6-4eaf-a8ec-0d124aa0e507-width" userLabel="Group-width"/>
+            <constraint firstItem="View-e14d97d5-37f6-4eaf-a8ec-0d124aa0e507" firstAttribute="height" constant="91.28805" priority="972" id="View-e14d97d5-37f6-4eaf-a8ec-0d124aa0e507-height" userLabel="Group-height"/>
+            <constraint secondAttribute="top" secondItem="screen-c93b8e21-25e1-4b5a-8d73-7bf2438610aa" firstItem="View-e14d97d5-37f6-4eaf-a8ec-0d124aa0e507" firstAttribute="top" constant="116.712" priority="973" id="View-e14d97d5-37f6-4eaf-a8ec-0d124aa0e507-top" userLabel="Group-top"/>
+            <constraint secondAttribute="left" secondItem="screen-c93b8e21-25e1-4b5a-8d73-7bf2438610aa" firstItem="View-e14d97d5-37f6-4eaf-a8ec-0d124aa0e507" firstAttribute="left" constant="204" priority="974" id="View-e14d97d5-37f6-4eaf-a8ec-0d124aa0e507-left" userLabel="Group-left"/>
+            <constraint firstItem="image-59913747-ca89-457b-8d08-8415dc50222c" firstAttribute="width" constant="30" priority="971" id="image-59913747-ca89-457b-8d08-8415dc50222c-width" userLabel="Group-width"/>
+            <constraint firstItem="image-59913747-ca89-457b-8d08-8415dc50222c" firstAttribute="height" constant="92" priority="972" id="image-59913747-ca89-457b-8d08-8415dc50222c-height" userLabel="Group-height"/>
+            <constraint secondAttribute="top" secondItem="screen-c93b8e21-25e1-4b5a-8d73-7bf2438610aa" firstItem="image-59913747-ca89-457b-8d08-8415dc50222c" firstAttribute="top" constant="116" priority="973" id="image-59913747-ca89-457b-8d08-8415dc50222c-top" userLabel="Group-top"/>
+            <constraint secondAttribute="left" secondItem="screen-c93b8e21-25e1-4b5a-8d73-7bf2438610aa" firstItem="image-59913747-ca89-457b-8d08-8415dc50222c" firstAttribute="left" constant="141" priority="974" id="image-59913747-ca89-457b-8d08-8415dc50222c-left" userLabel="Group-left"/>
+            <constraint firstItem="image-8935776f-1702-41f1-8e21-667fd66d37a3" firstAttribute="width" constant="60" priority="971" id="image-8935776f-1702-41f1-8e21-667fd66d37a3-width" userLabel="Line-width"/>
+            <constraint firstItem="image-8935776f-1702-41f1-8e21-667fd66d37a3" firstAttribute="height" constant="19" priority="972" id="image-8935776f-1702-41f1-8e21-667fd66d37a3-height" userLabel="Line-height"/>
+            <constraint secondAttribute="top" secondItem="screen-c93b8e21-25e1-4b5a-8d73-7bf2438610aa" firstItem="image-8935776f-1702-41f1-8e21-667fd66d37a3" firstAttribute="top" constant="184" priority="973" id="image-8935776f-1702-41f1-8e21-667fd66d37a3-top" userLabel="Line-top"/>
+            <constraint secondAttribute="left" secondItem="screen-c93b8e21-25e1-4b5a-8d73-7bf2438610aa" firstItem="image-8935776f-1702-41f1-8e21-667fd66d37a3" firstAttribute="left" constant="94" priority="974" id="image-8935776f-1702-41f1-8e21-667fd66d37a3-left" userLabel="Line-left"/>
+            <constraint firstItem="image-d03167f0-43f4-4cc2-9551-753aeba92db4" firstAttribute="width" constant="55" priority="971" id="image-d03167f0-43f4-4cc2-9551-753aeba92db4-width" userLabel="meal-width"/>
+            <constraint firstItem="image-d03167f0-43f4-4cc2-9551-753aeba92db4" firstAttribute="height" constant="60" priority="972" id="image-d03167f0-43f4-4cc2-9551-753aeba92db4-height" userLabel="meal-height"/>
+            <constraint secondAttribute="top" secondItem="screen-c93b8e21-25e1-4b5a-8d73-7bf2438610aa" firstItem="image-d03167f0-43f4-4cc2-9551-753aeba92db4" firstAttribute="top" constant="43" priority="973" id="image-d03167f0-43f4-4cc2-9551-753aeba92db4-top" userLabel="meal-top"/>
+            <constraint secondAttribute="left" secondItem="screen-c93b8e21-25e1-4b5a-8d73-7bf2438610aa" firstItem="image-d03167f0-43f4-4cc2-9551-753aeba92db4" firstAttribute="left" constant="102" priority="974" id="image-d03167f0-43f4-4cc2-9551-753aeba92db4-left" userLabel="meal-left"/>
+            <constraint firstItem="image-917baf87-82e2-40f2-8b37-ec95edea7100" firstAttribute="width" constant="55" priority="971" id="image-917baf87-82e2-40f2-8b37-ec95edea7100-width" userLabel="weight-width"/>
+            <constraint firstItem="image-917baf87-82e2-40f2-8b37-ec95edea7100" firstAttribute="height" constant="61" priority="972" id="image-917baf87-82e2-40f2-8b37-ec95edea7100-height" userLabel="weight-height"/>
+            <constraint secondAttribute="top" secondItem="screen-c93b8e21-25e1-4b5a-8d73-7bf2438610aa" firstItem="image-917baf87-82e2-40f2-8b37-ec95edea7100" firstAttribute="top" constant="43" priority="973" id="image-917baf87-82e2-40f2-8b37-ec95edea7100-top" userLabel="weight-top"/>
+            <constraint secondAttribute="left" secondItem="screen-c93b8e21-25e1-4b5a-8d73-7bf2438610aa" firstItem="image-917baf87-82e2-40f2-8b37-ec95edea7100" firstAttribute="left" constant="219" priority="974" id="image-917baf87-82e2-40f2-8b37-ec95edea7100-left" userLabel="weight-left"/>
+            <constraint firstItem="image-307779d5-c2ec-454e-a6d8-098cd4e94b98" firstAttribute="width" constant="55" priority="971" id="image-307779d5-c2ec-454e-a6d8-098cd4e94b98-width" userLabel="activity-width"/>
+            <constraint firstItem="image-307779d5-c2ec-454e-a6d8-098cd4e94b98" firstAttribute="height" constant="61" priority="972" id="image-307779d5-c2ec-454e-a6d8-098cd4e94b98-height" userLabel="activity-height"/>
+            <constraint secondAttribute="top" secondItem="screen-c93b8e21-25e1-4b5a-8d73-7bf2438610aa" firstItem="image-307779d5-c2ec-454e-a6d8-098cd4e94b98" firstAttribute="top" constant="143" priority="973" id="image-307779d5-c2ec-454e-a6d8-098cd4e94b98-top" userLabel="activity-top"/>
+            <constraint secondAttribute="left" secondItem="screen-c93b8e21-25e1-4b5a-8d73-7bf2438610aa" firstItem="image-307779d5-c2ec-454e-a6d8-098cd4e94b98" firstAttribute="left" constant="35" priority="974" id="image-307779d5-c2ec-454e-a6d8-098cd4e94b98-left" userLabel="activity-left"/>
+            <constraint firstItem="image-e8927950-3d61-4192-831f-f63010d0b5f8" firstAttribute="width" constant="55" priority="971" id="image-e8927950-3d61-4192-831f-f63010d0b5f8-width" userLabel="blood-width"/>
+            <constraint firstItem="image-e8927950-3d61-4192-831f-f63010d0b5f8" firstAttribute="height" constant="61" priority="972" id="image-e8927950-3d61-4192-831f-f63010d0b5f8-height" userLabel="blood-height"/>
+            <constraint secondAttribute="top" secondItem="screen-c93b8e21-25e1-4b5a-8d73-7bf2438610aa" firstItem="image-e8927950-3d61-4192-831f-f63010d0b5f8" firstAttribute="top" constant="143" priority="973" id="image-e8927950-3d61-4192-831f-f63010d0b5f8-top" userLabel="blood-top"/>
+            <constraint secondAttribute="left" secondItem="screen-c93b8e21-25e1-4b5a-8d73-7bf2438610aa" firstItem="image-e8927950-3d61-4192-831f-f63010d0b5f8" firstAttribute="left" constant="285" priority="974" id="image-e8927950-3d61-4192-831f-f63010d0b5f8-left" userLabel="blood-left"/>
+            <constraint firstItem="image-ff742266-069b-496f-8886-0bc32a41c17e" firstAttribute="width" constant="55" priority="971" id="image-ff742266-069b-496f-8886-0bc32a41c17e-width" userLabel="phone-width"/>
+            <constraint firstItem="image-ff742266-069b-496f-8886-0bc32a41c17e" firstAttribute="height" constant="101" priority="972" id="image-ff742266-069b-496f-8886-0bc32a41c17e-height" userLabel="phone-height"/>
+            <constraint secondAttribute="top" secondItem="screen-c93b8e21-25e1-4b5a-8d73-7bf2438610aa" firstItem="image-ff742266-069b-496f-8886-0bc32a41c17e" firstAttribute="top" constant="191" priority="973" id="image-ff742266-069b-496f-8886-0bc32a41c17e-top" userLabel="phone-top"/>
+            <constraint secondAttribute="left" secondItem="screen-c93b8e21-25e1-4b5a-8d73-7bf2438610aa" firstItem="image-ff742266-069b-496f-8886-0bc32a41c17e" firstAttribute="left" constant="160" priority="974" id="image-ff742266-069b-496f-8886-0bc32a41c17e-left" userLabel="phone-left"/>
+            <constraint firstItem="View-bf797ef7-18ea-4b18-b278-ad9581cbe70a" firstAttribute="width" constant="344" priority="971" id="View-bf797ef7-18ea-4b18-b278-ad9581cbe70a-width" userLabel="Group Copy-width"/>
+            <constraint firstItem="View-bf797ef7-18ea-4b18-b278-ad9581cbe70a" firstAttribute="height" constant="85" priority="972" id="View-bf797ef7-18ea-4b18-b278-ad9581cbe70a-height" userLabel="Group Copy-height"/>
+            <constraint secondAttribute="top" secondItem="screen-c93b8e21-25e1-4b5a-8d73-7bf2438610aa" firstItem="View-bf797ef7-18ea-4b18-b278-ad9581cbe70a" firstAttribute="top" constant="484" priority="973" id="View-bf797ef7-18ea-4b18-b278-ad9581cbe70a-top" userLabel="Group Copy-top"/>
+            <constraint secondAttribute="left" secondItem="screen-c93b8e21-25e1-4b5a-8d73-7bf2438610aa" firstItem="View-bf797ef7-18ea-4b18-b278-ad9581cbe70a" firstAttribute="left" constant="14" priority="974" id="View-bf797ef7-18ea-4b18-b278-ad9581cbe70a-left" userLabel="Group Copy-left"/>
+        </constraints>
+                                <connections>
+                                </connections>
+</view>
+                    <userDefinedRuntimeAttributes>
+                    <userDefinedRuntimeAttribute type="boolean" keyPath="hidesNavBar" value="YES"/>
+                    <userDefinedRuntimeAttribute type="boolean" keyPath="hidesStatusBar" value="YES"/>
+                    <userDefinedRuntimeAttribute type="boolean" keyPath="lightStatusBar" value="NO"/>
+                    </userDefinedRuntimeAttributes>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="375" height="667"/>
+                    <connections>
+                        <outlet property="group3" destination="View-f79f371f-2939-470e-8bbb-51183865d961" id="group3-screen-c93b8e21-25e1-4b5a-8d73-7bf2438610aa-Prop"/>
+                        <outlet property="group3Oval4" destination="image-63cd586a-2cf4-49e3-be9c-1c093baf8a78" id="group3Oval4-screen-c93b8e21-25e1-4b5a-8d73-7bf2438610aa-Prop"/>
+                        <outlet property="group3Image1" destination="image-f1f740c0-6d6f-49a4-811a-dc5c952587be" id="group3Image1-screen-c93b8e21-25e1-4b5a-8d73-7bf2438610aa-Prop"/>
+                        <outlet property="group3Image2" destination="image-5a10c468-461a-4adf-9880-5349ba797b03" id="group3Image2-screen-c93b8e21-25e1-4b5a-8d73-7bf2438610aa-Prop"/>
+                        <outlet property="group3View1" destination="View-8c599e1d-488d-459c-bd06-7b5252fe740d" id="group3View1-screen-c93b8e21-25e1-4b5a-8d73-7bf2438610aa-Prop"/>
+                        <outlet property="group3View2" destination="View-d75f0f0f-59af-4d65-8c72-67f3e62842c5" id="group3View2-screen-c93b8e21-25e1-4b5a-8d73-7bf2438610aa-Prop"/>
+                        <outlet property="labelSyncData" destination="Label-6d6568a3-f066-4ba7-b275-03bc712a8795" id="labelSyncData-screen-c93b8e21-25e1-4b5a-8d73-7bf2438610aa-Prop"/>
+                        <outlet property="labelSyncYourHealthDataBetweenAllOfYourApps" destination="Label-1f310131-246e-47b4-936b-b794fd271619" id="labelSyncYourHealthDataBetweenAllOfYourApps-screen-c93b8e21-25e1-4b5a-8d73-7bf2438610aa-Prop"/>
+                        <outlet property="group" destination="View-e14d97d5-37f6-4eaf-a8ec-0d124aa0e507" id="group-screen-c93b8e21-25e1-4b5a-8d73-7bf2438610aa-Prop"/>
+                        <outlet property="groupLine" destination="image-3469769a-8214-4b84-a88f-a0f80ec27193" id="groupLine-screen-c93b8e21-25e1-4b5a-8d73-7bf2438610aa-Prop"/>
+                        <outlet property="groupImage1" destination="image-f1b9a99a-be49-4403-a89c-e3d1c13cd983" id="groupImage1-screen-c93b8e21-25e1-4b5a-8d73-7bf2438610aa-Prop"/>
+                        <outlet property="image1" destination="image-59913747-ca89-457b-8d08-8415dc50222c" id="image1-screen-c93b8e21-25e1-4b5a-8d73-7bf2438610aa-Prop"/>
+                        <outlet property="line" destination="image-8935776f-1702-41f1-8e21-667fd66d37a3" id="line-screen-c93b8e21-25e1-4b5a-8d73-7bf2438610aa-Prop"/>
+                        <outlet property="meal" destination="image-d03167f0-43f4-4cc2-9551-753aeba92db4" id="meal-screen-c93b8e21-25e1-4b5a-8d73-7bf2438610aa-Prop"/>
+                        <outlet property="weight" destination="image-917baf87-82e2-40f2-8b37-ec95edea7100" id="weight-screen-c93b8e21-25e1-4b5a-8d73-7bf2438610aa-Prop"/>
+                        <outlet property="activity" destination="image-307779d5-c2ec-454e-a6d8-098cd4e94b98" id="activity-screen-c93b8e21-25e1-4b5a-8d73-7bf2438610aa-Prop"/>
+                        <outlet property="blood" destination="image-e8927950-3d61-4192-831f-f63010d0b5f8" id="blood-screen-c93b8e21-25e1-4b5a-8d73-7bf2438610aa-Prop"/>
+                        <outlet property="phone" destination="image-ff742266-069b-496f-8886-0bc32a41c17e" id="phone-screen-c93b8e21-25e1-4b5a-8d73-7bf2438610aa-Prop"/>
+                        <outlet property="groupCopy" destination="View-bf797ef7-18ea-4b18-b278-ad9581cbe70a" id="groupCopy-screen-c93b8e21-25e1-4b5a-8d73-7bf2438610aa-Prop"/>
+                        <outlet property="groupCopyButton" destination="image-b3bda2f5-7a6b-4223-99f5-e59624f6cda1" id="groupCopyButton-screen-c93b8e21-25e1-4b5a-8d73-7bf2438610aa-Prop"/>
+                        <outlet property="groupCopyLabelSyncNow" destination="Label-d605a3ca-c65f-447b-8e49-12d525d73eee" id="groupCopyLabelSyncNow-screen-c93b8e21-25e1-4b5a-8d73-7bf2438610aa-Prop"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="screen-c93b8e21-25e1-4b5a-8d73-7bf2438610aa-FR" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="950" y="842"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="a03bantintroweight" />
+        <image name="a03bantintroreminder" />
+        <image name="a04bantintroactivity" />
+        <image name="a04bantintroline  1" />
+        <image name="a04bantintroline  2" />
+        <image name="a02bantintropagedot4" />
+        <image name="a02bantintropagedot2" />
+        <image name="a02bantintropagedot3" />
+        <image name="a01bantintropagedot4" />
+        <image name="a01bantintropagedot3" />
+        <image name="a01bantintropagedot2" />
+        <image name="a02bantintroweight" />
+        <image name="a03bantintropagedot2" />
+        <image name="a03bantintrofill 14" />
+        <image name="a04bantintrogroup" />
+        <image name="a04bantintrooval 4  1" />
+        <image name="a04bantintrooval 4  2" />
+        <image name="a02bantintroadd icon" />
+        <image name="a04bantintrophone" />
+        <image name="a03bantintroblood" />
+        <image name="a04bantintrooval 4" />
+        <image name="a03bantintropagedot1" />
+        <image name="a04bantintroline" />
+        <image name="a03bantintropagedot3" />
+        <image name="a04bantintromeal" />
+        <image name="a04bantintroblood" />
+        <image name="a04bantintroweight" />
+        <image name="a04bantintrobutton" />
+        <image name="a02bantintroblood" />
+        <image name="a02bantintromeak" />
+    </resources>
+</document>
